@@ -1,0 +1,1647 @@
+[
+  {
+    "id": "qafto_171101524080712040",
+    "type": "section",
+    "children": [
+      {
+        "id": "qafto_171101524080790584",
+        "type": "section",
+        "children": [
+          {
+            "id": "qafto_171101524080818576",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101524080988138",
+                "type": "span",
+                "style": { "display": "block" },
+                "css": "mdi mdi-menu @md:hidden block cursor-pointer ",
+                "events": {
+                  "onClick": {
+                    "task": "Toggle Element",
+                    "parameters": {
+                      "id": "qafto_171101524080980450"
+                    }
+                  }
+                }
+              },
+              {
+                "id": "qafto_171101524080980450",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101524080970523",
+                    "type": "ul",
+                    "children": [
+                      {
+                        "id": "qafto_171101524080990939",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081097322",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Home",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/",
+                                  "newTab": false,
+                                  "pageName": "HomePage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:pr-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081054959",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081040361",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "About",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/about",
+                                  "newTab": false,
+                                  "pageName": "About",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081117866",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081116076",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Services",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/services",
+                                  "newTab": false,
+                                  "pageName": "ServicesPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081197844",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081235186",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Project",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/projects",
+                                  "newTab": false,
+                                  "pageName": "ProjectPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081245718",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081247059",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Blogs",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/blogs",
+                                  "newTab": false,
+                                  "pageName": "BlogsPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081248538",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081344732",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Contact",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/contact",
+                                  "newTab": false,
+                                  "pageName": "ContactUs",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:pr-3",
+                        "content": " "
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "flexDirection": "column",
+                      "fontSize": "14px",
+                      "paddingTop": "12px",
+                      "paddingBottom": "12px"
+                    },
+                    "css": "flex z-50 items-center @md:justify-normal justify-center @sm:flex-row flex-col text-sm py-3"
+                  },
+                  {
+                    "id": "qafto_171101524081392790",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101524081367441",
+                        "type": "a",
+                        "style": {},
+                        "data": { "href": "#" },
+                        "css": "mdi mdi-instagram cursor-pointer"
+                      },
+                      {
+                        "id": "qafto_171101524081359777",
+                        "type": "a",
+                        "style": {},
+                        "data": { "href": "#" },
+                        "css": "mdi mdi-facebook cursor-pointer"
+                      },
+                      {
+                        "id": "qafto_171101524081354085",
+                        "type": "a",
+                        "style": {},
+                        "data": { "href": "#" },
+                        "css": "mdi mdi-twitter cursor-pointer"
+                      },
+                      {
+                        "id": "qafto_171101524081474439",
+                        "type": "a",
+                        "style": {},
+                        "data": { "href": "#" },
+                        "css": "mdi mdi-linkedin"
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "gap": "16px",
+                      "marginBottom": "12px",
+                      "fontWeight": 500
+                    },
+                    "css": "@xs:hidden flex z-50 items-center @md:justify-normal justify-center @lg:gap-4 @md:gap-2 gap-4 mb-3 font-medium"
+                  }
+                ],
+                "style": { "display": "block", "color": "white" },
+                "css": "@md:block z-50 block @md:static absolute @xs:top-12 top-10 left-0 right-0 bg-primary_color text-white"
+              },
+              {
+                "id": "qafto_171101524081442510",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101524081414818",
+                    "type": "a",
+                    "style": {},
+                    "data": { "href": "#" },
+                    "css": "mdi mdi-instagram cursor-pointer"
+                  },
+                  {
+                    "id": "qafto_171101524081493060",
+                    "type": "a",
+                    "style": {},
+                    "data": { "href": "#" },
+                    "css": "mdi mdi-facebook cursor-pointer"
+                  },
+                  {
+                    "id": "qafto_171101524081435318",
+                    "type": "a",
+                    "style": {},
+                    "data": { "href": "#" },
+                    "css": "mdi mdi-twitter cursor-pointer"
+                  },
+                  {
+                    "id": "qafto_171101524081490080",
+                    "type": "a",
+                    "style": {},
+                    "data": { "href": "#" },
+                    "css": "mdi mdi-linkedin cursor-pointer"
+                  },
+                  {
+                    "id": "qafto_171101524081449608",
+                    "type": "button",
+                    "style": {
+                      "backgroundColor": "white",
+                      "fontSize": "12px",
+                      "paddingLeft": "8px",
+                      "paddingRight": "8px",
+                      "paddingTop": "4px",
+                      "paddingBottom": "4px"
+                    },
+                    "css": "bg-white text-primary_color @lg:px-5 @md:px-2 @xs:px-4 px-2 @xs:py-3 py-1 @lg:text-base @xs:text-sm text-xs ",
+                    "content": "Request Quote",
+                    "events": {
+                      "onClick": {
+                        "task": "Navigate",
+                        "parameters": {
+                          "path": "/contact",
+                          "newTab": false,
+                          "pageName": "ContactUs",
+                          "navigationType": "Page"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "style": {
+                  "display": "hidden",
+                  "alignItems": "center",
+                  "gap": "12px",
+                  "fontWeight": 500
+                },
+                "css": "@xs:flex hidden z-50 items-center @lg:gap-4 @md:gap-2 @xs:gap-4 gap-3 font-medium"
+              },
+              {
+                "id": "qafto_171101524081589028",
+                "type": "button",
+                "style": {
+                  "display": "block",
+                  "fontWeight": 500,
+                  "backgroundColor": "white",
+                  "fontSize": "12px",
+                  "paddingLeft": "8px",
+                  "paddingRight": "8px",
+                  "paddingTop": "4px",
+                  "paddingBottom": "4px"
+                },
+                "css": "@xs:hidden block font-medium bg-white text-primary_color @lg:px-5 @md:px-2 @xs:px-4 px-2 @xs:py-3 py-1 @lg:text-base @xs:text-sm text-xs ",
+                "content": "Request Quote",
+                "events": {
+                  "onClick": {
+                    "task": "Navigate",
+                    "parameters": {
+                      "path": "/contact",
+                      "newTab": false,
+                      "pageName": "ContactUs",
+                      "navigationType": "Page"
+                    }
+                  }
+                }
+              }
+            ],
+            "style": {
+              "display": "flex",
+              "alignItems": "center",
+              "justifyContent": "space-between",
+              "gap": "12px"
+            },
+            "css": "flex items-center justify-between gap-3 "
+          }
+        ],
+        "style": {
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "paddingLeft": "20px",
+          "paddingRight": "20px"
+        },
+        "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5 "
+      }
+    ],
+    "style": {
+      "color": "white",
+      "paddingTop": "8px",
+      "paddingBottom": "8px",
+      "fontFamily": "Krub"
+    },
+    "css": "bg-primary_color relative text-white py-2 "
+  },
+
+  {
+    "id": "qafto_171101645082468250",
+    "type": "section",
+    "children": [
+      {
+        "id": "qafto_171101645082570512",
+        "type": "h1",
+        "style": { "fontFamily": "Rubik" },
+        "content": "Contact Us"
+      }
+    ],
+    "style": {
+      "width": "100%",
+      "paddingTop": "64px",
+      "paddingBottom": "64px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "textAlign": "center",
+      "color": "white",
+      "fontWeight": 500,
+      "fontSize": "24px"
+    },
+    "css": "w-full py-16 px-10 text-center text-white bg-[url('https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/Header.png')] bg-no-repeat bg-cover bg-center font-medium @sm:text-3xl text-2xl",
+    "data": {
+      "backgroundImage": true,
+      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/Header.png"
+    }
+  },
+
+  {
+    "id": "qafto_171101645082590053",
+    "type": "section",
+    "children": [
+      {
+        "id": "qafto_171101645082536411",
+        "type": "div",
+        "children": [
+          {
+            "id": "qafto_171101645082556742",
+            "type": "p",
+            "style": {
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "paddingBottom": "4px",
+              "borderLeftWidth": "4px",
+              "fontSize": "14px",
+              "width": "max-content",
+              "marginBottom": "12px"
+            },
+            "css": "px-3 py-1 bg-[#F4F4F4] border-l-4 border-secondary_color text-sm w-max mb-3",
+            "content": "Contact"
+          },
+          {
+            "id": "qafto_171101645082648622",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101645082669610",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101645082697975",
+                    "type": "h1",
+                    "style": {
+                      "fontSize": "24px",
+                      "marginBottom": "8px",
+                      "fontWeight": 600,
+                      "fontFamily": "Rubik"
+                    },
+                    "css": "@lg:text-4xl @xs:text-3xl text-2xl mb-2 font-semibold",
+                    "content": "Get in touch with us"
+                  },
+                  {
+                    "id": "qafto_171101645082676391",
+                    "type": "p",
+                    "style": {
+                      "fontSize": "14px",
+                      "marginBottom": "24px"
+                    },
+                    "css": "text-sm mb-6 @lg:pr-3",
+                    "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, dolore nulla, sequi blanditiis recusandae facere error saepe culpa, deserunt quod atque accusamus ab!"
+                  },
+                  {
+                    "id": "qafto_171101645082792176",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101645082792393",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101645082712076",
+                            "type": "span",
+                            "style": {
+                              "paddingTop": "4px",
+                              "paddingBottom": "4px",
+                              "paddingLeft": "8px",
+                              "paddingRight": "8px",
+                              "borderRadius": "9999px",
+                              "borderWidth": "1px",
+                              "borderColor": "#273270",
+                              "backgroundColor": "#111C55",
+                              "fontSize": "econdary_colo"
+                            },
+                            "css": "mdi mdi-email-outline py-1 px-2  rounded-full border border-[#273270] bg-[#111C55] text-secondary_color"
+                          },
+                          {
+                            "id": "qafto_171101645082730130",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101645082768251",
+                                "type": "p",
+                                "style": {},
+                                "css": "",
+                                "content": "Email"
+                              },
+                              {
+                                "id": "qafto_171101645082746704",
+                                "type": "p",
+                                "style": {},
+                                "css": "",
+                                "content": "Contact@logistics.com"
+                              }
+                            ],
+                            "style": { "fontSize": "12px" },
+                            "css": "text-xs cursor-pointer"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "gap": "12px",
+                          "alignItems": "center",
+                          "marginBottom": "16px"
+                        },
+                        "css": "flex gap-3 items-center mb-4"
+                      },
+                      {
+                        "id": "qafto_171101645082729431",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101645082889395",
+                            "type": "span",
+                            "style": {
+                              "paddingTop": "4px",
+                              "paddingBottom": "4px",
+                              "paddingLeft": "8px",
+                              "paddingRight": "8px",
+                              "borderRadius": "9999px",
+                              "borderWidth": "1px",
+                              "borderColor": "#273270",
+                              "backgroundColor": "#111C55",
+                              "fontSize": "econdary_colo"
+                            },
+                            "css": "mdi mdi-phone-outline py-1 px-2  rounded-full border border-[#273270] bg-[#111C55] text-secondary_color"
+                          },
+                          {
+                            "id": "qafto_171101645082882866",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101645082855724",
+                                "type": "p",
+                                "style": {},
+                                "content": "Call Us"
+                              },
+                              {
+                                "id": "qafto_171101645082876452",
+                                "type": "p",
+                                "style": {},
+                                "content": "(001) 112 365 489"
+                              }
+                            ],
+                            "style": { "fontSize": "12px" },
+                            "css": "text-xs cursor-pointer"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "gap": "12px",
+                          "alignItems": "center",
+                          "marginBottom": "16px"
+                        },
+                        "css": "flex gap-3 items-center mb-4"
+                      },
+                      {
+                        "id": "qafto_171101645082872826",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101645082863037",
+                            "type": "span",
+                            "style": {
+                              "paddingTop": "4px",
+                              "paddingBottom": "4px",
+                              "paddingLeft": "8px",
+                              "paddingRight": "8px",
+                              "height": "100%",
+                              "borderRadius": "9999px",
+                              "borderWidth": "1px",
+                              "borderColor": "#273270",
+                              "backgroundColor": "#111C55",
+                              "fontSize": "econdary_colo"
+                            },
+                            "css": "mdi mdi-clock-outline  py-1 px-2  h-full rounded-full border border-[#273270] bg-[#111C55] text-secondary_color"
+                          },
+                          {
+                            "id": "qafto_171101645082960908",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101645082957310",
+                                "type": "p",
+                                "style": {},
+                                "css": "",
+                                "content": "Mon-Sat 9:00 - 18:00"
+                              },
+                              {
+                                "id": "qafto_171101645082986688",
+                                "type": "p",
+                                "style": {},
+                                "content": " Sunday Closed"
+                              }
+                            ],
+                            "style": { "fontSize": "12px" },
+                            "css": "text-xs cursor-pointer"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "gap": "12px",
+                          "alignItems": "center",
+                          "marginBottom": "16px"
+                        },
+                        "css": "flex gap-3 items-center mb-4"
+                      }
+                    ],
+                    "style": { "display": "grid" },
+                    "css": "grid @md:grid-cols-1 @sm:grid-cols-3 @xs:grid-cols-2"
+                  }
+                ],
+                "style": { "width": "100%", "fontWeight": 500 },
+                "css": "@md:w-1/2 w-full font-medium"
+              },
+              {
+                "id": "qafto_171101645082997468",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101645082941657",
+                    "type": "FormikComponent",
+                    "data": {
+                      "form_id": "lo8cyvc3bido14sharn",
+                      "form_name": "newformlo8cyvc3bidoharbs6cn",
+                      "display_name": "ContactUs",
+
+                      "formik_state": {
+                        "name": "",
+                        "email": "",
+                        "number": "",
+                        "city": "",
+                        "message": ""
+                      },
+                      "url": "contact-us",
+                      "function": "ContactUsStatic",
+                      "tablename": "contact7",
+                      "navigate": "/",
+                      "successMsg": "Thank you for getting in touch with us! Your message has been successfully submitted. We will review it and get back to you as soon as possible",
+                      "failMsg": "Please try again."
+                    },
+
+                    "children": [
+                      {
+                        "id": "qafto_171101645082964369",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101645082915922",
+                            "type": "ShortTextField",
+                            "data": {
+                              "css": {
+                                "help": "",
+                                "input": "w-full border border-gray-400 hover:border-primary_color outline-none bg-transparent py-2 px-2 text-sm placeholder:text-primary_color",
+                                "label": "",
+                                "warning": "capitalize text-xs text-red-600",
+
+                                "helpStyle": {},
+                                "inputStyle": {
+                                  "width": "100%",
+                                  "borderWidth": "1px",
+                                  "borderColor": "#9ca3af",
+                                  "backgroundColor": "transparent",
+                                  "paddingTop": "8px",
+                                  "paddingBottom": "8px",
+                                  "paddingLeft": "8px",
+                                  "paddingRight": "8px",
+                                  "fontSize": "14px"
+                                },
+                                "warningStyle": {
+                                  "color": "#dc2626",
+                                  "marginTop": "4px",
+                                  "fontSize": "14px",
+                                  "textTransform": "capitalize"
+                                }
+                              },
+                              "help": false,
+                              "name": "Name",
+                              "label": false,
+                              "helpText": "",
+                              "required": true,
+                              "inputType": "text",
+                              "labelText": "",
+                              "stateName": "name",
+                              "placeholder": "Name",
+                              "minLength": 3,
+                              "validations": [
+                                {
+                                  "type": "required",
+                                  "message": "Name is required"
+                                },
+                                {
+                                  "type": "minLength",
+                                  "value": 3,
+                                  "message": "Minimum 3 characters required"
+                                }
+                              ]
+                            }
+                          },
+
+                          {
+                            "id": "qafto_171101645083014789",
+                            "type": "EmailField",
+                            "data": {
+                              "css": {
+                                "help": "",
+                                "input": "w-full border border-gray-400 hover:border-primary_color outline-none bg-transparent py-2 px-2 text-sm placeholder:text-primary_color",
+                                "label": "",
+                                "warning": "capitalize text-xs text-red-600",
+                                "helpStyle": {},
+                                "inputStyle": {
+                                  "width": "100%",
+                                  "borderWidth": "1px",
+                                  "borderColor": "#9ca3af",
+                                  "backgroundColor": "transparent",
+                                  "paddingTop": "8px",
+                                  "paddingBottom": "8px",
+                                  "paddingLeft": "8px",
+                                  "paddingRight": "8px",
+                                  "fontSize": "14px"
+                                },
+                                "warningStyle": {
+                                  "color": "#dc2626",
+                                  "marginTop": "4px",
+                                  "fontSize": "14px",
+                                  "textTransform": "capitalize"
+                                }
+                              },
+                              "help": false,
+                              "name": "Email",
+                              "label": false,
+                              "helpText": "",
+                              "required": true,
+                              "unique": true,
+                              "inputType": "email",
+                              "labelText": "",
+                              "stateName": "email",
+                              "placeholder": "Email",
+                              "minLength": 6,
+                              "validations": [
+                                {
+                                  "type": "required",
+                                  "message": "Email is required"
+                                },
+                                {
+                                  "type": "isEmail",
+                                  "message": "Please enter a valid email address"
+                                },
+                                {
+                                  "type": "minLength",
+                                  "value": 6,
+                                  "message": "Minimum 6 characters required"
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "alignItems": "center",
+                          "flexDirection": "column",
+                          "width": "100%",
+                          "gap": "12px",
+                          "rowGap": "12px"
+                        },
+                        "css": "flex items-center @xs:flex-row flex-col w-full @sm:gap-5 gap-3 gap-y-3"
+                      },
+                      {
+                        "id": "qafto_171101645083035069",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101645083082859",
+                            "type": "ShortTextField",
+                            "data": {
+                              "css": {
+                                "help": "",
+                                "input": "w-full border border-gray-400 hover:border-primary_color outline-none bg-transparent py-2 px-2 text-sm placeholder:text-primary_color",
+                                "label": "",
+                                "warning": "capitalize text-xs text-red-600",
+
+                                "helpStyle": {},
+                                "inputStyle": {
+                                  "width": "100%",
+                                  "borderWidth": "1px",
+                                  "borderColor": "#9ca3af",
+                                  "backgroundColor": "transparent",
+                                  "paddingTop": "8px",
+                                  "paddingBottom": "8px",
+                                  "paddingLeft": "8px",
+                                  "paddingRight": "8px",
+                                  "fontSize": "14px"
+                                },
+                                "warningStyle": {
+                                  "color": "#dc2626",
+                                  "marginTop": "4px",
+                                  "fontSize": "14px",
+                                  "textTransform": "capitalize"
+                                }
+                              },
+                              "help": false,
+                              "name": "Number",
+                              "label": false,
+                              "helpText": "",
+                              "required": true,
+                              "inputType": "number",
+                              "labelText": "",
+                              "stateName": "number",
+                              "placeholder": "phone Number",
+                              "minLength": 10,
+                              "maxLength": 10,
+                              "validations": [
+                                {
+                                  "type": "required",
+                                  "message": "number is required"
+                                },
+                                {
+                                  "type": "minLength",
+                                  "value": 10,
+                                  "message": "Minimum 10 characters required"
+                                }
+                              ]
+                            }
+                          },
+
+                          {
+                            "id": "qafto_171101645083058469",
+                            "type": "ShortTextField",
+                            "data": {
+                              "css": {
+                                "help": "",
+                                "input": "w-full border border-gray-400 hover:border-primary_color outline-none bg-transparent py-2 px-2 text-sm placeholder:text-primary_color",
+                                "label": "",
+                                "warning": "capitalize text-xs text-red-600",
+
+                                "helpStyle": {},
+                                "inputStyle": {
+                                  "width": "100%",
+                                  "borderWidth": "1px",
+                                  "borderColor": "#9ca3af",
+                                  "backgroundColor": "transparent",
+                                  "paddingTop": "8px",
+                                  "paddingBottom": "8px",
+                                  "paddingLeft": "8px",
+                                  "paddingRight": "8px",
+                                  "fontSize": "14px"
+                                },
+                                "warningStyle": {
+                                  "color": "#dc2626",
+                                  "marginTop": "4px",
+                                  "fontSize": "14px",
+                                  "textTransform": "capitalize"
+                                }
+                              },
+                              "help": false,
+                              "name": "City",
+                              "label": false,
+                              "helpText": "",
+                              "required": true,
+                              "inputType": "text",
+                              "labelText": "",
+                              "stateName": "city",
+                              "placeholder": "City",
+                              "minLength": 3,
+                              "validations": [
+                                {
+                                  "type": "required",
+                                  "message": "number is required"
+                                },
+                                {
+                                  "type": "minLength",
+                                  "value": 3,
+                                  "message": "Minimum 3 characters required"
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "alignItems": "center",
+                          "flexDirection": "column",
+                          "width": "100%",
+                          "gap": "12px",
+                          "rowGap": "12px"
+                        },
+                        "css": "flex items-center @xs:flex-row flex-col w-full @sm:gap-5 gap-3 gap-y-3"
+                      },
+
+                      {
+                        "id": "qafto_171101645083146941",
+                        "type": "LongTextField",
+                        "data": {
+                          "css": {
+                            "help": "",
+                            "input": "w-full border border-gray-400 hover:border-primary_color outline-none bg-transparent py-2 px-2 text-sm placeholder:text-primary_color",
+
+                            "label": "",
+                            "warning": "capitalize text-xs text-red-600",
+                            "helpStyle": {},
+                            "inputStyle": {
+                              "width": "100%",
+                              "borderWidth": "1px",
+                              "borderColor": "#9ca3af",
+                              "backgroundColor": "transparent",
+                              "paddingTop": "8px",
+                              "paddingBottom": "8px",
+                              "paddingLeft": "8px",
+                              "paddingRight": "8px",
+                              "fontSize": "14px"
+                            },
+                            "warningStyle": {
+                              "color": "#dc2626",
+                              "fontSize": "14px",
+                              "marginTop": "4px",
+                              "textTransform": "capitalize"
+                            }
+                          },
+                          "help": false,
+                          "name": "Message",
+                          "label": false,
+                          "disabled": false,
+                          "helpText": "",
+                          "required": true,
+                          "autoFocus": false,
+                          "labelText": "",
+                          "stateName": "message",
+                          "placeholder": "Your Message",
+                          "rows": 5,
+                          "minLength": 10,
+                          "validations": [
+                            {
+                              "type": "required",
+                              "message": "Message is required"
+                            },
+                            {
+                              "type": "minLength",
+                              "value": 10,
+                              "message": "Minimum 10 characters required"
+                            }
+                          ]
+                        }
+                      },
+
+                      {
+                        "id": "qafto_171101645083214594",
+                        "type": "button",
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px",
+                          "fontSize": "rimary_colo",
+                          "fontWeight": 500,
+                          "width": "100%"
+                        },
+                        "data": { "type": "submit", "formButton": true },
+                        "css": "py-2 px-5 bg-gradient-to-r from-secondary_color from-20% via-[#FFDA56] via-80% to-[#FFD7A6] text-primary_color font-medium @xs:w-max w-full",
+                        "content": "Submit Message"
+                      }
+                    ],
+                    "style": {
+                      "width": "100%",
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "gap": "12px",
+                      "fontWeight": 500
+                    },
+                    "css": "w-full flex flex-col @sm:gap-5 gap-3 font-medium"
+                  }
+                ],
+                "style": { "width": "100%" },
+                "css": "@md:w-1/2 w-full"
+              }
+            ],
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "20px",
+              "marginBottom": "40px"
+            },
+            "css": "flex @md:flex-row flex-col gap-5 mb-10"
+          },
+          {
+            "id": "qafto_171101645083386871",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101645083343039",
+                "type": "img",
+                "style": { "width": "100%" },
+                "data": {
+                  "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/contact1.png",
+                  "alt": ""
+                },
+                "css": "w-full max-h-80"
+              },
+              {
+                "id": "qafto_171101645083319828",
+                "type": "img",
+                "style": { "width": "100%" },
+                "data": {
+                  "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/contact2.png",
+                  "alt": ""
+                },
+                "css": "w-full max-h-80"
+              },
+              {
+                "id": "qafto_171101645083316611",
+                "type": "img",
+                "style": { "width": "100%" },
+                "data": {
+                  "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/contact3.png",
+                  "alt": ""
+                },
+                "css": "w-full max-h-80"
+              },
+              {
+                "id": "qafto_171101645083328002",
+                "type": "img",
+                "style": { "width": "100%" },
+                "data": {
+                  "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/contact4.png",
+                  "alt": ""
+                },
+                "css": "w-full max-h-80"
+              }
+            ],
+            "style": { "display": "grid", "alignItems": "center" },
+            "css": "grid @md:grid-cols-4 @sm:grid-cols-3 @xs:grid-cols-2 items-center  overflow-hidden"
+          }
+        ],
+        "style": {
+          "width": "100%",
+          "marginLeft": "auto",
+          "marginRight": "auto"
+        },
+        "css": "@lg:w-11/12 w-full mx-auto"
+      }
+    ],
+    "style": {
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "marginTop": "80px",
+      "marginBottom": "112px"
+    },
+    "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5 mt-20 mb-28"
+  },
+
+  {
+    "id": "qafto_171101619780794679",
+    "type": "div",
+    "children": [
+      {
+        "id": "qafto_171101619780758370",
+        "type": "div",
+        "children": [
+          {
+            "id": "qafto_171101619780773489",
+            "type": "img",
+            "style": { "width": "100%", "height": "100%" },
+            "data": {
+              "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/footerlogo.png",
+              "alt": ""
+            },
+            "css": "w-full object-cover h-full"
+          }
+        ],
+        "style": { "width": "100%", "height": "240px" },
+        "css": "w-full @2xl:h-96 @xl:h-full @lg:h-80 @md:h-72 @sm:h-64 h-60 "
+      },
+      {
+        "id": "qafto_171101619780748508",
+        "type": "div",
+        "children": [
+          {
+            "id": "qafto_171101619780721458",
+            "type": "section",
+            "children": [
+              {
+                "id": "qafto_171101619780815206",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101619780857489",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101619780863972",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101619780875825",
+                            "type": "img",
+                            "style": {
+                              "height": "100%",
+                              "width": "100%"
+                            },
+                            "data": {
+                              "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/logo.png",
+                              "alt": ""
+                            },
+                            "css": "h-full w-full object-cover"
+                          }
+                        ],
+                        "style": {
+                          "width": "112px",
+                          "marginBottom": "20px"
+                        },
+                        "css": "w-28 @sm:mb-12 mb-5"
+                      },
+                      {
+                        "id": "qafto_171101619780873797",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101619780887742",
+                            "type": "p",
+                            "style": { "marginBottom": "20px" },
+                            "css": "mb-5 @xs:w-11/12",
+                            "content": "Leverage agile frameworks to provide a robust synopsis for startegy collaborative thinking for further the overall value proposition"
+                          },
+                          {
+                            "id": "qafto_171101619780876690",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101619780875539",
+                                "type": "span",
+                                "style": {
+                                  "paddingTop": "4px",
+                                  "paddingBottom": "4px",
+                                  "paddingLeft": "8px",
+                                  "paddingRight": "8px",
+                                  "borderRadius": "9999px",
+                                  "borderWidth": "1px",
+                                  "borderColor": "#273270",
+                                  "backgroundColor": "#111C55",
+                                  "fontSize": "econdary_colo"
+                                },
+                                "css": "mdi mdi-email-outline py-1 px-2  rounded-full border border-[#273270] bg-[#111C55] text-secondary_color"
+                              },
+                              {
+                                "id": "qafto_171101619780919687",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171101619780994638",
+                                    "type": "p",
+                                    "style": {},
+                                    "css": "",
+                                    "content": "Email"
+                                  },
+                                  {
+                                    "id": "qafto_171101619780913631",
+                                    "type": "p",
+                                    "style": {},
+                                    "css": "",
+                                    "content": "Contact@logistics.com"
+                                  }
+                                ],
+                                "style": { "fontSize": "12px" },
+                                "css": "text-xs cursor-pointer"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "12px",
+                              "alignItems": "center"
+                            },
+                            "css": "flex gap-3 items-center"
+                          },
+                          {
+                            "id": "qafto_171101619780983062",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101619780944658",
+                                "type": "span",
+                                "style": {
+                                  "paddingTop": "4px",
+                                  "paddingBottom": "4px",
+                                  "paddingLeft": "8px",
+                                  "paddingRight": "8px",
+                                  "borderRadius": "9999px",
+                                  "borderWidth": "1px",
+                                  "borderColor": "#273270",
+                                  "backgroundColor": "#111C55",
+                                  "fontSize": "econdary_colo"
+                                },
+                                "css": "mdi mdi-phone-outline py-1 px-2  rounded-full border border-[#273270] bg-[#111C55] text-secondary_color"
+                              },
+                              {
+                                "id": "qafto_171101619781045295",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171101619781015029",
+                                    "type": "p",
+                                    "style": {},
+                                    "content": "Call Us"
+                                  },
+                                  {
+                                    "id": "qafto_171101619781065848",
+                                    "type": "p",
+                                    "style": {},
+                                    "content": "(001) 112 365 489"
+                                  }
+                                ],
+                                "style": { "fontSize": "12px" },
+                                "css": "text-xs cursor-pointer"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "12px",
+                              "alignItems": "center",
+                              "marginTop": "20px"
+                            },
+                            "css": "flex gap-3 items-center mt-5"
+                          }
+                        ],
+                        "style": { "fontSize": "14px" },
+                        "css": " text-sm"
+                      }
+                    ],
+                    "style": {},
+                    "css": "@sm:order-1 order-2"
+                  },
+                  {
+                    "id": "qafto_171101619781096066",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101524095438272",
+                        "type": "h1",
+                        "style": {
+                          "fontSize": "20px",
+                          "fontWeight": 500,
+                          "marginBottom": "20px",
+                          "fontFamily": "Rubik"
+                        },
+                        "css": "text-xl font-medium @sm:mb-12 mb-5",
+                        "content": "Pages"
+                      },
+                      {
+                        "id": "qafto_171101524095565677",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101524095577829",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "About Us",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/about",
+                                  "newTab": false,
+                                  "pageName": "About",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "qafto_171101524095522556",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "Services",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/services",
+                                  "newTab": false,
+                                  "pageName": "ServicesPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "qafto_171101524095546443",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "Our Project",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/projects",
+                                  "newTab": false,
+                                  "pageName": "ProjectPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "qafto_171101524095550427",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "Blog",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/blogs",
+                                  "newTab": false,
+                                  "pageName": "BlogsPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "qafto_171101524095597477",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "Contact",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/contact",
+                                  "newTab": false,
+                                  "pageName": "ContactUs",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "gap": "16px",
+                          "fontSize": "14px"
+                        },
+                        "css": "flex flex-col gap-4 text-sm"
+                      }
+                    ],
+                    "style": { "height": "100%" },
+                    "css": "@sm:order-2 order-3 @sm:place-self-center h-full"
+                  },
+                  {
+                    "id": "qafto_171101619781036852",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101619781133691",
+                        "type": "h1",
+                        "style": {
+                          "fontSize": "20px",
+                          "fontWeight": 500,
+                          "marginBottom": "20px",
+                          "fontFamily": "Rubik"
+                        },
+                        "css": "text-xl font-medium @sm:mb-12 mb-5",
+                        "content": "Subscribe"
+                      },
+                      {
+                        "id": "qafto_171101619781192382",
+                        "type": "FormikComponent",
+                        "data": {
+                          "form_id": "lo8cyvc3bido1xsharn",
+                          "form_name": "newformlo8cyvc3bwxoharbs6cn",
+                          "display_name": "ContactUs",
+
+                          "formik_state": {
+                            "email": ""
+                          },
+                          "url": "newsletter/subscribe",
+                          "function": "NewsletterStatic",
+                          "tablename": "newsletter2",
+                          "navigate": "/",
+                          "successMsg": "Thank you for getting in touch with us!",
+                          "failMsg": "Please try again."
+                        },
+                        "children": [
+                          {
+                            "id": "qafto_171101619781155593",
+                            "type": "EmailField",
+                            "data": {
+                              "css": {
+                                "help": "",
+                                "input": "@xs:w-11/12 w-full mb-2 py-2 px-3 bg-transparent outline-none text-sm border border-[#273270]",
+                                "label": "",
+                                "warning": "capitalize text-xs text-red-600",
+                                "helpStyle": {},
+                                "inputStyle": {
+                                  "width": "100%",
+                                  "marginBottom": "8px",
+                                  "paddingTop": "8px",
+                                  "paddingBottom": "8px",
+                                  "paddingLeft": "12px",
+                                  "paddingRight": "12px",
+                                  "backgroundColor": "transparent",
+                                  "fontSize": "14px",
+                                  "borderWidth": "1px",
+                                  "borderColor": "#273270"
+                                },
+                                "warningStyle": {
+                                  "color": "#dc2626",
+                                  "marginTop": "4px",
+                                  "fontSize": "14px",
+                                  "textTransform": "capitalize"
+                                }
+                              },
+                              "help": false,
+                              "name": "Email",
+                              "label": false,
+                              "helpText": "",
+                              "required": true,
+                              "unique": true,
+                              "inputType": "email",
+                              "labelText": "",
+                              "stateName": "email",
+                              "placeholder": "Email",
+                              "minLength": 6,
+                              "validations": [
+                                {
+                                  "type": "required",
+                                  "message": "Email is required"
+                                },
+                                {
+                                  "type": "isEmail",
+                                  "message": "Please enter a valid email address"
+                                },
+                                {
+                                  "type": "minLength",
+                                  "value": 6,
+                                  "message": "Minimum 6 characters required"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "id": "qafto_171101619781290198",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101619781282526",
+                                "type": "button",
+                                "style": {
+                                  "paddingTop": "8px",
+                                  "paddingBottom": "8px",
+                                  "paddingLeft": "20px",
+                                  "paddingRight": "20px",
+                                  "fontSize": "rimary_colo",
+                                  "fontWeight": 500
+                                },
+                                "data": {
+                                  "type": "submit",
+                                  "formButton": true
+                                },
+                                "css": "py-2 px-5  text-sm bg-gradient-to-r from-secondary_color from-20% via-[#FFDA56] via-80% to-[#FFD7A6] text-primary_color font-medium",
+                                "content": "Send Now"
+                              },
+                              {
+                                "id": "qafto_171101619781253171",
+                                "type": "span",
+                                "style": {},
+                                "css": "mdi mdi-linkedin cursor-pointer"
+                              },
+                              {
+                                "id": "qafto_171101619781212696",
+                                "type": "span",
+                                "style": {},
+                                "css": "mdi mdi-twitter cursor-pointer"
+                              },
+                              {
+                                "id": "qafto_171101619781279396",
+                                "type": "span",
+                                "style": {},
+                                "css": "mdi mdi-facebook cursor-pointer"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "gap": "12px"
+                            },
+                            "css": "flex items-center gap-3"
+                          }
+                        ],
+                        "style": { "width": "100%" },
+                        "css": "w-full"
+                      }
+                    ],
+                    "style": {},
+                    "css": "@sm:order-3 order-1"
+                  }
+                ],
+                "style": {
+                  "display": "grid",
+                  "gap": "40px",
+                  "rowGap": "40px",
+                  "paddingTop": "32px",
+                  "paddingBottom": "32px"
+                },
+                "css": "grid @md:grid-cols-3 @sm:grid-cols-2 gap-10 gap-y-10 py-8"
+              },
+              {
+                "id": "qafto_171101619781264319",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101619781253105",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101619781236852",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101619781325178",
+                            "type": "p",
+                            "style": {},
+                            "content": "CopyRight © | Designed 2024"
+                          },
+                          {
+                            "id": "qafto_171101619781379150",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101619781357150",
+                                "type": "p",
+                                "style": {},
+                                "content": "Terms & Condition"
+                              },
+                              {
+                                "id": "qafto_171101619781380689",
+                                "type": "p",
+                                "style": {},
+                                "content": "Privacy Policy"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "gap": "16px",
+                              "fontSize": "12px"
+                            },
+                            "css": "flex items-center gap-4 @xs:text-sm text-xs "
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "alignItems": "center",
+                          "flexDirection": "column",
+                          "rowGap": "20px",
+                          "fontSize": "14px"
+                        },
+                        "css": "flex items-center @sm:flex-row flex-col @sm:justify-between gap-y-5 text-sm"
+                      }
+                    ],
+                    "style": {
+                      "marginLeft": "auto",
+                      "marginRight": "auto",
+                      "paddingLeft": "20px",
+                      "paddingRight": "20px",
+                      "color": "white"
+                    },
+                    "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-0 @md:px-10 px-5 text-white"
+                  }
+                ],
+                "style": {
+                  "width": "100%",
+                  "borderTopWidth": "1px",
+                  "borderColor": "#273270",
+                  "paddingTop": "16px",
+                  "paddingBottom": "16px",
+                  "marginTop": "16px"
+                },
+                "css": "w-full border-t border-[#273270] py-4 mt-4"
+              }
+            ],
+            "style": {
+              "marginLeft": "auto",
+              "marginRight": "auto",
+              "paddingLeft": "20px",
+              "paddingRight": "20px",
+              "color": "white"
+            },
+            "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5 text-white"
+          }
+        ],
+        "style": { "color": "white" },
+        "css": "bg-primary_color text-white"
+      }
+    ],
+    "style": { "fontFamily": "Krub" },
+    "css": ""
+  }
+]

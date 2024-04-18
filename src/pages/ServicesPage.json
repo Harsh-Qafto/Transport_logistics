@@ -1,0 +1,3105 @@
+[
+  {
+    "id": "qafto_171101524080712040",
+    "type": "section",
+    "children": [
+      {
+        "id": "qafto_171101524080790584",
+        "type": "section",
+        "children": [
+          {
+            "id": "qafto_171101524080818576",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101524080988138",
+                "type": "span",
+                "style": { "display": "block" },
+                "css": "mdi mdi-menu @md:hidden block cursor-pointer ",
+                "events": {
+                  "onClick": {
+                    "task": "Toggle Element",
+                    "parameters": {
+                      "id": "qafto_171101524080980450"
+                    }
+                  }
+                }
+              },
+              {
+                "id": "qafto_171101524080980450",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101524080970523",
+                    "type": "ul",
+                    "children": [
+                      {
+                        "id": "qafto_171101524080990939",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081097322",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Home",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/",
+                                  "newTab": false,
+                                  "pageName": "HomePage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:pr-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081054959",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081040361",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "About",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/about",
+                                  "newTab": false,
+                                  "pageName": "About",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081117866",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081116076",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Services",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/services",
+                                  "newTab": false,
+                                  "pageName": "ServicesPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081197844",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081235186",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Project",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/projects",
+                                  "newTab": false,
+                                  "pageName": "ProjectPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081245718",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081247059",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Blogs",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/blogs",
+                                  "newTab": false,
+                                  "pageName": "BlogsPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081248538",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081344732",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Contact",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/contact",
+                                  "newTab": false,
+                                  "pageName": "ContactUs",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:pr-3",
+                        "content": " "
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "flexDirection": "column",
+                      "fontSize": "14px",
+                      "paddingTop": "12px",
+                      "paddingBottom": "12px"
+                    },
+                    "css": "flex z-50 items-center @md:justify-normal justify-center @sm:flex-row flex-col text-sm py-3"
+                  },
+                  {
+                    "id": "qafto_171101524081392790",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101524081367441",
+                        "type": "a",
+                        "style": {},
+                        "data": { "href": "#" },
+                        "css": "mdi mdi-instagram cursor-pointer"
+                      },
+                      {
+                        "id": "qafto_171101524081359777",
+                        "type": "a",
+                        "style": {},
+                        "data": { "href": "#" },
+                        "css": "mdi mdi-facebook cursor-pointer"
+                      },
+                      {
+                        "id": "qafto_171101524081354085",
+                        "type": "a",
+                        "style": {},
+                        "data": { "href": "#" },
+                        "css": "mdi mdi-twitter cursor-pointer"
+                      },
+                      {
+                        "id": "qafto_171101524081474439",
+                        "type": "a",
+                        "style": {},
+                        "data": { "href": "#" },
+                        "css": "mdi mdi-linkedin"
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "gap": "16px",
+                      "marginBottom": "12px",
+                      "fontWeight": 500
+                    },
+                    "css": "@xs:hidden flex z-50 items-center @md:justify-normal justify-center @lg:gap-4 @md:gap-2 gap-4 mb-3 font-medium"
+                  }
+                ],
+                "style": { "display": "block", "color": "white" },
+                "css": "@md:block z-50 block @md:static absolute @xs:top-12 top-10 left-0 right-0 bg-primary_color text-white"
+              },
+              {
+                "id": "qafto_171101524081442510",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101524081414818",
+                    "type": "a",
+                    "style": {},
+                    "data": { "href": "#" },
+                    "css": "mdi mdi-instagram cursor-pointer"
+                  },
+                  {
+                    "id": "qafto_171101524081493060",
+                    "type": "a",
+                    "style": {},
+                    "data": { "href": "#" },
+                    "css": "mdi mdi-facebook cursor-pointer"
+                  },
+                  {
+                    "id": "qafto_171101524081435318",
+                    "type": "a",
+                    "style": {},
+                    "data": { "href": "#" },
+                    "css": "mdi mdi-twitter cursor-pointer"
+                  },
+                  {
+                    "id": "qafto_171101524081490080",
+                    "type": "a",
+                    "style": {},
+                    "data": { "href": "#" },
+                    "css": "mdi mdi-linkedin cursor-pointer"
+                  },
+                  {
+                    "id": "qafto_171101524081449608",
+                    "type": "button",
+                    "style": {
+                      "backgroundColor": "white",
+                      "fontSize": "12px",
+                      "paddingLeft": "8px",
+                      "paddingRight": "8px",
+                      "paddingTop": "4px",
+                      "paddingBottom": "4px"
+                    },
+                    "css": "bg-white text-primary_color @lg:px-5 @md:px-2 @xs:px-4 px-2 @xs:py-3 py-1 @lg:text-base @xs:text-sm text-xs ",
+                    "content": "Request Quote",
+                    "events": {
+                      "onClick": {
+                        "task": "Navigate",
+                        "parameters": {
+                          "path": "/contact",
+                          "newTab": false,
+                          "pageName": "ContactUs",
+                          "navigationType": "Page"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "style": {
+                  "display": "hidden",
+                  "alignItems": "center",
+                  "gap": "12px",
+                  "fontWeight": 500
+                },
+                "css": "@xs:flex hidden z-50 items-center @lg:gap-4 @md:gap-2 @xs:gap-4 gap-3 font-medium"
+              },
+              {
+                "id": "qafto_171101524081589028",
+                "type": "button",
+                "style": {
+                  "display": "block",
+                  "fontWeight": 500,
+                  "backgroundColor": "white",
+                  "fontSize": "12px",
+                  "paddingLeft": "8px",
+                  "paddingRight": "8px",
+                  "paddingTop": "4px",
+                  "paddingBottom": "4px"
+                },
+                "css": "@xs:hidden block font-medium bg-white text-primary_color @lg:px-5 @md:px-2 @xs:px-4 px-2 @xs:py-3 py-1 @lg:text-base @xs:text-sm text-xs ",
+                "content": "Request Quote",
+                "events": {
+                  "onClick": {
+                    "task": "Navigate",
+                    "parameters": {
+                      "path": "/contact",
+                      "newTab": false,
+                      "pageName": "ContactUs",
+                      "navigationType": "Page"
+                    }
+                  }
+                }
+              }
+            ],
+            "style": {
+              "display": "flex",
+              "alignItems": "center",
+              "justifyContent": "space-between",
+              "gap": "12px"
+            },
+            "css": "flex items-center justify-between gap-3 "
+          }
+        ],
+        "style": {
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "paddingLeft": "20px",
+          "paddingRight": "20px"
+        },
+        "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5 "
+      }
+    ],
+    "style": {
+      "color": "white",
+      "paddingTop": "8px",
+      "paddingBottom": "8px",
+      "fontFamily": "Krub"
+    },
+    "css": "bg-primary_color relative text-white py-2 "
+  },
+  {
+    "id": "qafto_171101524081585293",
+    "type": "section",
+    "children": [
+      {
+        "id": "qafto_171101524081694117",
+        "type": "h1",
+        "style": { "fontFamily": "Rubik" },
+        "content": "Our Logistics"
+      }
+    ],
+    "style": {
+      "width": "100%",
+      "paddingTop": "64px",
+      "paddingBottom": "64px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "textAlign": "center",
+      "color": "white",
+      "fontWeight": 500,
+      "fontSize": "24px",
+      "fontFamily": "Krub"
+    },
+    "css": "w-full py-16 px-10 text-center text-white bg-[url('https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/Header.png')] bg-no-repeat bg-cover bg-center font-medium @sm:text-3xl text-2xl",
+    "data": {
+      "backgroundImage": true,
+      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/Header.png"
+    }
+  },
+  {
+    "id": "qafto_171101524081697267",
+    "type": "section",
+    "children": [
+      {
+        "id": "qafto_171101524081763036",
+        "type": "div",
+        "children": [
+          {
+            "id": "qafto_171101524081766492",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101524081742761",
+                "type": "p",
+                "style": {
+                  "paddingLeft": "12px",
+                  "paddingRight": "12px",
+                  "paddingTop": "4px",
+                  "paddingBottom": "4px",
+                  "borderLeftWidth": "4px",
+                  "fontSize": "14px",
+                  "width": "max-content",
+                  "marginBottom": "12px"
+                },
+                "css": "px-3 py-1 bg-[#F4F4F4] border-l-4 border-secondary_color text-sm w-max mb-3",
+                "content": "What we do"
+              },
+              {
+                "id": "qafto_171101524081826963",
+                "type": "h1",
+                "style": {
+                  "fontSize": "20px",
+                  "marginBottom": "20px",
+                  "fontWeight": 600,
+                  "fontFamily": "Rubik"
+                },
+                "css": "@lg:text-4xl @xs:text-3xl text-xl mb-5 font-semibold",
+                "content": "Our Logistic Services"
+              },
+              {
+                "id": "qafto_171101524081823357",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101524081841203",
+                    "type": "div",
+                    "events": {
+                      "onClick": {
+                        "task": "Navigate",
+                        "parameters": {
+                          "path": "/service/service_sea",
+                          "newTab": false,
+                          "pageName": "BlogDetail",
+                          "navigationType": "Page"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "qafto_171101524082420852",
+                        "type": "img",
+                        "style": { "width": "32px" },
+                        "data": {
+                          "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/serviceicon.png",
+                          "alt": ""
+                        },
+                        "css": "@sm:w-10 w-8"
+                      },
+                      {
+                        "id": "qafto_171101524082453123",
+                        "type": "h1",
+                        "style": {},
+                        "css": "@sm:text-lg",
+                        "content": "Sea Transport Service"
+                      },
+                      {
+                        "id": "qafto_171101524082469307",
+                        "type": "p",
+                        "style": {
+                          "color": "#6b7280",
+                          "textAlign": "center",
+                          "fontSize": "14px"
+                        },
+                        "css": "text-gray-500 @xs:text-start text-center @sm:text-base text-sm",
+                        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, esse!"
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "gap": "8px"
+                    },
+                    "css": "flex flex-col @xs:items-start items-center @xs:gap-3 gap-2"
+                  },
+                  {
+                    "id": "qafto_171101524082498315",
+                    "type": "div",
+                    "events": {
+                      "onClick": {
+                        "task": "Navigate",
+                        "parameters": {
+                          "path": "/service/service_warehouse",
+                          "newTab": false,
+                          "pageName": "BlogDetail",
+                          "navigationType": "Page"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "qafto_171101524082465159",
+                        "type": "img",
+                        "style": { "width": "32px" },
+                        "data": {
+                          "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/icon2.png",
+                          "alt": ""
+                        },
+                        "css": "@sm:w-10 w-8"
+                      },
+                      {
+                        "id": "qafto_171101524082551279",
+                        "type": "h1",
+                        "style": {},
+                        "css": "@sm:text-lg",
+                        "content": "Warehousing Services"
+                      },
+                      {
+                        "id": "qafto_171101524082538198",
+                        "type": "p",
+                        "style": {
+                          "color": "#6b7280",
+                          "textAlign": "center",
+                          "fontSize": "14px"
+                        },
+                        "css": "text-gray-500 @xs:text-start text-center @sm:text-base text-sm",
+                        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, esse!"
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "gap": "8px"
+                    },
+                    "css": "flex flex-col @xs:items-start items-center @xs:gap-3 gap-2"
+                  },
+                  {
+                    "id": "qafto_171101524082578942",
+                    "type": "div",
+                    "events": {
+                      "onClick": {
+                        "task": "Navigate",
+                        "parameters": {
+                          "path": "/service/service_air",
+                          "newTab": false,
+                          "pageName": "BlogDetail",
+                          "navigationType": "Page"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "qafto_171101524082527309",
+                        "type": "img",
+                        "style": { "width": "32px" },
+                        "data": {
+                          "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/icon3.png",
+                          "alt": ""
+                        },
+                        "css": "@sm:w-10 w-8"
+                      },
+                      {
+                        "id": "qafto_171101524082513305",
+                        "type": "h1",
+                        "style": {},
+                        "css": "@sm:text-lg",
+                        "content": "Air Flight Service"
+                      },
+                      {
+                        "id": "qafto_171101524082534401",
+                        "type": "p",
+                        "style": {
+                          "color": "#6b7280",
+                          "textAlign": "center",
+                          "fontSize": "14px"
+                        },
+                        "css": "text-gray-500 @xs:text-start text-center @sm:text-base text-sm",
+                        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, esse!"
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "gap": "8px"
+                    },
+                    "css": "flex flex-col @xs:items-start items-center @xs:gap-3 gap-2"
+                  },
+                  {
+                    "id": "qafto_171101524082519915",
+                    "type": "div",
+                    "events": {
+                      "onClick": {
+                        "task": "Navigate",
+                        "parameters": {
+                          "path": "/service/service_project",
+                          "newTab": false,
+                          "pageName": "BlogDetail",
+                          "navigationType": "Page"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "qafto_171101524082560174",
+                        "type": "img",
+                        "style": { "width": "32px" },
+                        "data": {
+                          "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/icon4.png",
+                          "alt": ""
+                        },
+                        "css": "@sm:w-10 w-8"
+                      },
+                      {
+                        "id": "qafto_171101524082525868",
+                        "type": "h1",
+                        "style": {},
+                        "css": "@sm:text-lg",
+                        "content": "Project & Exhibition"
+                      },
+                      {
+                        "id": "qafto_171101524082581014",
+                        "type": "p",
+                        "style": {
+                          "color": "#6b7280",
+                          "textAlign": "center",
+                          "fontSize": "14px"
+                        },
+                        "css": "text-gray-500 @xs:text-start text-center @sm:text-base text-sm",
+                        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, esse!"
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "gap": "8px"
+                    },
+                    "css": "flex flex-col @xs:items-start items-center @xs:gap-3 gap-2"
+                  },
+                  {
+                    "id": "qafto_171101524082617764",
+                    "type": "div",
+                    "events": {
+                      "onClick": {
+                        "task": "Navigate",
+                        "parameters": {
+                          "path": "/service/service_localshipping",
+                          "newTab": false,
+                          "pageName": "BlogDetail",
+                          "navigationType": "Page"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "qafto_171101524082613138",
+                        "type": "img",
+                        "style": { "width": "32px" },
+                        "data": {
+                          "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/icon5.png",
+                          "alt": ""
+                        },
+                        "css": "@sm:w-10 w-8"
+                      },
+                      {
+                        "id": "qafto_171101524082681064",
+                        "type": "h1",
+                        "style": {},
+                        "css": "@sm:text-lg",
+                        "content": "Local Shipping Service"
+                      },
+                      {
+                        "id": "qafto_171101524082624501",
+                        "type": "p",
+                        "style": {
+                          "color": "#6b7280",
+                          "textAlign": "center",
+                          "fontSize": "14px"
+                        },
+                        "css": "text-gray-500 @xs:text-start text-center @sm:text-base text-sm",
+                        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, esse!"
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "gap": "8px"
+                    },
+                    "css": "flex flex-col @xs:items-start items-center @xs:gap-3 gap-2"
+                  },
+                  {
+                    "id": "qafto_171101524082659508",
+                    "type": "div",
+                    "events": {
+                      "onClick": {
+                        "task": "Navigate",
+                        "parameters": {
+                          "path": "/service/service_customer",
+                          "newTab": false,
+                          "pageName": "BlogDetail",
+                          "navigationType": "Page"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "qafto_171101524082614313",
+                        "type": "img",
+                        "style": { "width": "32px" },
+                        "data": {
+                          "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/icon6.png",
+                          "alt": ""
+                        },
+                        "css": "@sm:w-10 w-8"
+                      },
+                      {
+                        "id": "qafto_171101524082664551",
+                        "type": "h1",
+                        "style": {},
+                        "css": "@sm:text-lg",
+                        "content": "Customer Clearance"
+                      },
+                      {
+                        "id": "qafto_171101524082673794",
+                        "type": "p",
+                        "style": {
+                          "color": "#6b7280",
+                          "textAlign": "center",
+                          "fontSize": "14px"
+                        },
+                        "css": "text-gray-500 @xs:text-start text-center @sm:text-base text-sm",
+                        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, esse!"
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "gap": "8px"
+                    },
+                    "css": "flex flex-col @xs:items-start items-center @xs:gap-3 gap-2"
+                  }
+                ],
+                "style": {
+                  "display": "grid",
+                  "gridTemplateColumns": "repeat(1, minmax(0, 1fr))",
+                  "alignItems": "center",
+                  "gap": "20px",
+                  "rowGap": "40px"
+                },
+                "css": "grid @md:grid-cols-3 @xs:grid-cols-2 grid-cols-1 items-center @xl:gap-20 @lg:gap-14 @md:gap-10 @sm:gap-8 gap-5 gap-y-10"
+              }
+            ],
+            "style": {
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "12px",
+              "alignItems": "center",
+              "justifyContent": "center"
+            },
+            "css": "flex flex-col gap-3 items-center justify-center"
+          },
+          {
+            "id": "qafto_171101524082788783",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101524082750773",
+                "type": "button",
+                "style": {
+                  "color": "white",
+                  "fontSize": "14px",
+                  "marginTop": "40px",
+                  "paddingTop": "8px",
+                  "paddingBottom": "8px",
+                  "paddingLeft": "16px",
+                  "paddingRight": "16px",
+                  "width": "max-content",
+                  "marginLeft": "auto",
+                  "marginRight": "auto"
+                },
+                "css": "bg-primary_color text-white text-sm mt-10 py-2 px-4 w-max mx-auto",
+                "content": "More Works"
+              }
+            ],
+            "style": {
+              "display": "flex",
+              "alignItems": "center",
+              "justifyContent": "center"
+            },
+            "css": "flex items-center justify-center"
+          }
+        ],
+        "style": { "width": "100%", "fontWeight": 500 },
+        "css": "w-full font-medium"
+      }
+    ],
+    "style": {
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "marginTop": "80px",
+      "marginBottom": "96px",
+      "fontFamily": "Krub"
+    },
+    "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5 mt-20 mb-24"
+  },
+  {
+    "id": "qafto_171101524082749279",
+    "type": "div",
+    "children": [
+      {
+        "id": "qafto_171101524082794819",
+        "type": "section",
+        "children": [
+          {
+            "id": "qafto_171101524082760304",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101524082779815",
+                "type": "p",
+                "style": {
+                  "paddingLeft": "12px",
+                  "paddingRight": "12px",
+                  "paddingTop": "4px",
+                  "paddingBottom": "4px",
+                  "borderLeftWidth": "4px",
+                  "fontSize": "14px",
+                  "width": "max-content",
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "marginBottom": "12px"
+                },
+                "css": "px-3 py-1 bg-[#F4F4F4] border-l-4 border-secondary_color text-sm  w-max mx-auto mb-3",
+                "content": "Our Goodness"
+              },
+              {
+                "id": "qafto_171101524082810457",
+                "type": "h1",
+                "style": {
+                  "fontSize": "20px",
+                  "fontWeight": 600,
+                  "fontFamily": "Rubik"
+                },
+                "css": "@lg:text-3xl @xs:text-2xl text-xl font-semibold",
+                "content": "How We Works"
+              }
+            ],
+            "style": {
+              "fontWeight": 600,
+              "textAlign": "center",
+              "marginBottom": "40px"
+            },
+            "css": "font-semibold text-center mb-10"
+          },
+          {
+            "id": "qafto_171101524082861121",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101524082968001",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101524082949943",
+                    "type": "img",
+                    "style": { "width": "100%", "height": "288px" },
+                    "data": {
+                      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/about1.png",
+                      "alt": ""
+                    },
+                    "css": "w-full object-cover @xl:h-auto @lg:h-full @xs:h-80 h-72"
+                  },
+                  {
+                    "id": "qafto_171101524082955095",
+                    "type": "img",
+                    "style": {
+                      "width": "128px",
+                      "borderWidth": "8px",
+                      "borderBottomWidth": "1px"
+                    },
+                    "data": {
+                      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/about2.png",
+                      "alt": ""
+                    },
+                    "css": "absolute @lg:bottom-[-3rem] bottom-[-2rem] @lg:right-[-3rem] right-[-0.5rem] @xl:w-60 @md:w-56 @sm:w-52 @xs:w-40 w-32 @sm:border-[1rem] border-8 border-[#F4F4F4]"
+                  }
+                ],
+                "style": { "width": "100%" },
+                "css": "relative w-full @xl:h-auto @lg:h-full"
+              },
+              {
+                "id": "qafto_171101524082980572",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101524082936605",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101524083083072",
+                        "type": "img",
+                        "style": { "width": "40px" },
+                        "data": {
+                          "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/icon2.png",
+                          "alt": ""
+                        },
+                        "css": "w-10"
+                      },
+                      {
+                        "id": "qafto_171101524083069356",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101524083014145",
+                            "type": "h1",
+                            "style": {
+                              "fontWeight": 600,
+                              "fontSize": "20px",
+                              "marginBottom": "4px"
+                            },
+                            "css": "font-semibold text-primary_color text-xl mb-1",
+                            "content": "Warehousing Services"
+                          },
+                          {
+                            "id": "qafto_171101524083063300",
+                            "type": "p",
+                            "style": {
+                              "color": "#9ca3af",
+                              "fontSize": "tar"
+                            },
+                            "css": "text-gray-400 text-sm text-start",
+                            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quaerat dignissimos ducimus rerum beatae obcaecati eligendi excepturi doloribus aliquam recusandae."
+                          }
+                        ],
+                        "style": { "textAlign": "center" },
+                        "css": "@xs:text-start text-center"
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "gap": "12px",
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "marginBottom": "24px"
+                    },
+                    "css": "flex gap-3 @xs:flex-row flex-col @xs:items-start items-center mb-6"
+                  },
+                  {
+                    "id": "qafto_171101524083034216",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101524083115906",
+                        "type": "img",
+                        "style": { "width": "40px" },
+                        "data": {
+                          "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/icon3.png",
+                          "alt": ""
+                        },
+                        "css": "w-10"
+                      },
+                      {
+                        "id": "qafto_171101524083117406",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101524083179163",
+                            "type": "h1",
+                            "style": {
+                              "fontWeight": 600,
+                              "fontSize": "20px",
+                              "marginBottom": "4px"
+                            },
+                            "css": "font-semibold text-primary_color text-xl mb-1",
+                            "content": "Safety & Quality"
+                          },
+                          {
+                            "id": "qafto_171101524083258686",
+                            "type": "p",
+                            "style": {
+                              "color": "#9ca3af",
+                              "fontSize": "tar"
+                            },
+                            "css": "text-gray-400 text-sm text-start",
+                            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quaerat dignissimos ducimus rerum beatae obcaecati eligendi excepturi doloribus aliquam recusandae."
+                          }
+                        ],
+                        "style": { "textAlign": "center" },
+                        "css": "@xs:text-start text-center"
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "gap": "12px",
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "marginBottom": "24px"
+                    },
+                    "css": "flex gap-3 @xs:flex-row flex-col @xs:items-start items-center mb-6"
+                  },
+                  {
+                    "id": "qafto_171101524083279427",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101524083270942",
+                        "type": "img",
+                        "style": { "width": "40px" },
+                        "data": {
+                          "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/icon4.png",
+                          "alt": ""
+                        },
+                        "css": "w-10"
+                      },
+                      {
+                        "id": "qafto_171101524083231308",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101524083211724",
+                            "type": "h1",
+                            "style": {
+                              "fontWeight": 600,
+                              "fontSize": "20px",
+                              "marginBottom": "4px"
+                            },
+                            "css": "font-semibold text-primary_color text-xl mb-1",
+                            "content": "Care for Environment"
+                          },
+                          {
+                            "id": "qafto_171101524083231218",
+                            "type": "p",
+                            "style": {
+                              "color": "#9ca3af",
+                              "fontSize": "tar"
+                            },
+                            "css": "text-gray-400 text-sm text-start",
+                            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quaerat dignissimos ducimus rerum beatae obcaecati eligendi excepturi doloribus aliquam recusandae."
+                          }
+                        ],
+                        "style": { "textAlign": "center" },
+                        "css": "@xs:text-start text-center"
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "gap": "12px",
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "marginBottom": "24px"
+                    },
+                    "css": "flex gap-3 @xs:flex-row flex-col @xs:items-start items-center mb-6"
+                  }
+                ],
+                "style": { "fontWeight": 600, "fontSize": "14px" },
+                "css": "font-semibold text-sm"
+              }
+            ],
+            "style": {
+              "display": "grid",
+              "alignItems": "center",
+              "gap": "96px"
+            },
+            "css": "grid @lg:grid-cols-2 items-center @lg:gap-20 gap-24"
+          }
+        ],
+        "style": {
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "paddingLeft": "20px",
+          "paddingRight": "20px"
+        },
+        "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5 @lg:mb-14"
+      }
+    ],
+    "style": {
+      "width": "100%",
+      "paddingTop": "40px",
+      "paddingBottom": "40px",
+      "marginBottom": "96px",
+      "fontFamily": "Krub"
+    },
+    "css": "bg-[#F4F4F4] w-full py-10 mb-24"
+  },
+  {
+    "id": "qafto_171101524083220513",
+    "type": "section",
+    "children": [
+      {
+        "id": "qafto_171101524083258760",
+        "type": "div",
+        "children": [
+          {
+            "id": "qafto_171101524083359006",
+            "type": "p",
+            "style": {
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "paddingBottom": "4px",
+              "borderLeftWidth": "4px",
+              "fontSize": "14px",
+              "width": "max-content",
+              "marginBottom": "12px"
+            },
+            "css": "px-3 py-1 bg-[#F4F4F4] border-l-4 border-secondary_color text-sm w-max mb-3",
+            "content": "Testimonial"
+          },
+          {
+            "id": "qafto_171101524083370225",
+            "type": "h1",
+            "style": {
+              "fontSize": "20px",
+              "fontWeight": 600,
+              "marginBottom": "32px",
+              "fontFamily": "Rubik"
+            },
+            "css": "@lg:text-4xl @xs:text-3xl text-xl font-semibold mb-8",
+            "content": "What Our Customer Say"
+          },
+          {
+            "id": "qafto_171101524083338351",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171152641170912681",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171152641170984989",
+                    "type": "Carousal",
+                    "data": {
+                      "responsive": {
+                        "superLargeDesktop": 3,
+                        "desktop": 2,
+                        "tablet": 1,
+                        "mobile": 1
+                      },
+                      "itemClass": "px-1",
+                      "CommonLeftArrow": {
+                        "children": [
+                          {
+                            "id": "qafto_171152641172567902",
+                            "type": "button",
+                            "style": {
+                              "fontSize": "rimary_colo",
+                              "borderRadius": "9999px",
+                              "paddingLeft": "8px",
+                              "paddingRight": "8px",
+                              "paddingTop": "4px",
+                              "paddingBottom": "4px",
+                              "marginLeft": "4px",
+                              "marginRight": "4px"
+                            },
+                            "css": ""
+                          }
+                        ],
+                        "buttonCSS": "mdi mdi-arrow-left absolute left-[-0.2rem] @xs:block hidden outline-none bg-secondary_color text-primary_color hover:bg-primary_color hover:text-white rounded-full px-2 py-1 mx-1"
+                      },
+                      "CommonRightArrow": {
+                        "children": [
+                          {
+                            "id": "qafto_171152641172567902",
+                            "type": "button",
+                            "style": {
+                              "fontSize": "rimary_colo",
+                              "borderRadius": "9999px",
+                              "paddingLeft": "8px",
+                              "paddingRight": "8px",
+                              "paddingTop": "4px",
+                              "paddingBottom": "4px",
+                              "marginLeft": "4px",
+                              "marginRight": "4px"
+                            },
+                            "css": ""
+                          }
+                        ],
+                        "buttonCSS": "mdi mdi-arrow-right absolute right-[-0.2rem] @xs:block hidden outline-none bg-secondary_color text-primary_color hover:bg-primary_color hover:text-white rounded-full px-2 py-1 mx-1"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "qafto_171152641170933985",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171152641170922773",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641171091554",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171152641171014519",
+                                    "type": "img",
+                                    "style": {
+                                      "width": "64px",
+                                      "borderRadius": "9999px"
+                                    },
+                                    "data": {
+                                      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/testimonials1.png",
+                                      "alt": ""
+                                    },
+                                    "css": "w-16 aspect-[64/65] rounded-full"
+                                  },
+                                  {
+                                    "id": "qafto_171152641171043990",
+                                    "type": "div",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171152641171036641",
+                                        "type": "h1",
+                                        "style": {
+                                          "fontWeight": 600,
+                                          "fontSize": "rimary_colo"
+                                        },
+                                        "css": "font-semibold text-lg text-primary_color group-hover:text-white",
+                                        "content": "Kathleen Smith"
+                                      },
+                                      {
+                                        "id": "qafto_171152641171093593",
+                                        "type": "p",
+                                        "style": {},
+                                        "css": "group-hover:text-white",
+                                        "content": "Fuel Company"
+                                      }
+                                    ],
+                                    "style": {},
+                                    "css": ""
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "flexDirection": "column",
+                                  "justifyContent": "center",
+                                  "width": "100%",
+                                  "gap": "8px"
+                                },
+                                "css": "flex items-center @xs:flex-row flex-col @xs:justify-normal justify-center @xs:w-auto w-full gap-2"
+                              },
+                              {
+                                "id": "qafto_171152641171170566",
+                                "type": "img",
+                                "style": { "width": "32px" },
+                                "data": {
+                                  "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/quote.png",
+                                  "alt": ""
+                                },
+                                "css": "@xs:w-10 w-8  @xs:place-self-auto place-self-start"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "flexDirection": "column",
+                              "rowGap": "20px",
+                              "marginBottom": "12px"
+                            },
+                            "css": "flex items-center @xs:justify-between @xs:flex-row flex-col gap-y-5 @xs:mb-5 mb-3"
+                          },
+                          {
+                            "id": "qafto_171152641171125913",
+                            "type": "p",
+                            "style": {
+                              "fontSize": "14px",
+                              "marginBottom": "12px",
+                              "color": "#6b7280"
+                            },
+                            "css": "text-sm @xs:mb-5 mb-3 text-gray-500 group-hover:text-white",
+                            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates aperiam nulla odio quam quod corporis nisi provident eius atque saepe dicta pariatur perspiciatis, quos, optio repellat debitis? Culpa veritatis magnam distinctio laborum iure."
+                          },
+                          {
+                            "id": "qafto_171152641171138523",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641171153249",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171130046",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171115296",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171254449",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171274274",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "4px",
+                              "alignItems": "center"
+                            },
+                            "css": "flex gap-1 items-center"
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "32px",
+                          "paddingBottom": "32px",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px"
+                        },
+                        "css": "@xs:py-10 py-8 @xl:px-10 px-5 bg-[#F4F4F4] group hover:bg-primary_color"
+                      },
+                      {
+                        "id": "qafto_171152641171251567",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171152641171277720",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641171291954",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171152641171270979",
+                                    "type": "img",
+                                    "style": {
+                                      "width": "64px",
+                                      "borderRadius": "9999px"
+                                    },
+                                    "data": {
+                                      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/testimonials2.png",
+                                      "alt": ""
+                                    },
+                                    "css": "w-16 aspect-[64/65] rounded-full"
+                                  },
+                                  {
+                                    "id": "qafto_171152641171212521",
+                                    "type": "div",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171152641171292746",
+                                        "type": "h1",
+                                        "style": {
+                                          "fontWeight": 600,
+                                          "fontSize": "rimary_colo"
+                                        },
+                                        "css": "font-semibold text-lg text-primary_color group-hover:text-white",
+                                        "content": "John Martin"
+                                      },
+                                      {
+                                        "id": "qafto_171152641171256691",
+                                        "type": "p",
+                                        "style": {},
+                                        "css": "group-hover:text-white",
+                                        "content": "Restoration Company"
+                                      }
+                                    ],
+                                    "style": {},
+                                    "css": ""
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "flexDirection": "column",
+                                  "justifyContent": "center",
+                                  "width": "100%",
+                                  "gap": "8px"
+                                },
+                                "css": "flex items-center @xs:flex-row flex-col @xs:justify-normal justify-center @xs:w-auto w-full gap-2"
+                              },
+                              {
+                                "id": "qafto_171152641171370367",
+                                "type": "img",
+                                "style": { "width": "32px" },
+                                "data": {
+                                  "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/quote.png",
+                                  "alt": ""
+                                },
+                                "css": "@xs:w-10 w-8  @xs:place-self-auto place-self-start"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "flexDirection": "column",
+                              "rowGap": "20px",
+                              "marginBottom": "12px"
+                            },
+                            "css": "flex items-center @xs:justify-between @xs:flex-row flex-col gap-y-5 @xs:mb-5 mb-3"
+                          },
+                          {
+                            "id": "qafto_171152641171320415",
+                            "type": "p",
+                            "style": {
+                              "fontSize": "14px",
+                              "marginBottom": "12px",
+                              "color": "#6b7280"
+                            },
+                            "css": "text-sm @xs:mb-5 mb-3 text-gray-500 group-hover:text-white",
+                            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates aperiam nulla odio quam quod corporis nisi provident eius atque saepe dicta pariatur perspiciatis, quos, optio repellat debitis? Culpa veritatis magnam distinctio laborum iure."
+                          },
+                          {
+                            "id": "qafto_171152641171371277",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641171322721",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171319166",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171388493",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171336603",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171383723",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "4px",
+                              "alignItems": "center"
+                            },
+                            "css": "flex gap-1 items-center"
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "32px",
+                          "paddingBottom": "32px",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px"
+                        },
+                        "css": "@xs:py-10 py-8 @xl:px-10 px-5 bg-[#F4F4F4] group hover:bg-primary_color"
+                      },
+                      {
+                        "id": "qafto_171152641171385659",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171152641171328988",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641171480888",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171152641171417129",
+                                    "type": "img",
+                                    "style": {
+                                      "width": "64px",
+                                      "borderRadius": "9999px"
+                                    },
+                                    "data": {
+                                      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/team1.png",
+                                      "alt": ""
+                                    },
+                                    "css": "w-16 aspect-[64/65] rounded-full"
+                                  },
+                                  {
+                                    "id": "qafto_171152641171466144",
+                                    "type": "div",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171152641171495153",
+                                        "type": "h1",
+                                        "style": {
+                                          "fontWeight": 600,
+                                          "fontSize": "rimary_colo"
+                                        },
+                                        "css": "font-semibold text-lg text-primary_color group-hover:text-white",
+                                        "content": "John Martin"
+                                      },
+                                      {
+                                        "id": "qafto_171152641171493394",
+                                        "type": "p",
+                                        "style": {},
+                                        "css": "group-hover:text-white",
+                                        "content": "Restoration Company"
+                                      }
+                                    ],
+                                    "style": {},
+                                    "css": ""
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "flexDirection": "column",
+                                  "justifyContent": "center",
+                                  "width": "100%",
+                                  "gap": "8px"
+                                },
+                                "css": "flex items-center @xs:flex-row flex-col @xs:justify-normal justify-center @xs:w-auto w-full gap-2"
+                              },
+                              {
+                                "id": "qafto_171152641171425317",
+                                "type": "img",
+                                "style": { "width": "32px" },
+                                "data": {
+                                  "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/quote.png",
+                                  "alt": ""
+                                },
+                                "css": "@xs:w-10 w-8  @xs:place-self-auto place-self-start"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "flexDirection": "column",
+                              "rowGap": "20px",
+                              "marginBottom": "12px"
+                            },
+                            "css": "flex items-center @xs:justify-between @xs:flex-row flex-col gap-y-5 @xs:mb-5 mb-3"
+                          },
+                          {
+                            "id": "qafto_171152641171468610",
+                            "type": "p",
+                            "style": {
+                              "fontSize": "14px",
+                              "marginBottom": "12px",
+                              "color": "#6b7280"
+                            },
+                            "css": "text-sm @xs:mb-5 mb-3 text-gray-500 group-hover:text-white",
+                            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates aperiam nulla odio quam quod corporis nisi provident eius atque saepe dicta pariatur perspiciatis, quos, optio repellat debitis? Culpa veritatis magnam distinctio laborum iure."
+                          },
+                          {
+                            "id": "qafto_171152641171422855",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641171435260",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171492711",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171418456",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171523402",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171531350",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "4px",
+                              "alignItems": "center"
+                            },
+                            "css": "flex gap-1 items-center"
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "32px",
+                          "paddingBottom": "32px",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px"
+                        },
+                        "css": "@xs:py-10 py-8 @xl:px-10 px-5 bg-[#F4F4F4] group hover:bg-primary_color"
+                      },
+                      {
+                        "id": "qafto_171152641171575781",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171152641171517600",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641171594319",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171152641171567641",
+                                    "type": "img",
+                                    "style": {
+                                      "width": "64px",
+                                      "borderRadius": "9999px"
+                                    },
+                                    "data": {
+                                      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/testimonials1.png",
+                                      "alt": ""
+                                    },
+                                    "css": "w-16 aspect-[64/65] rounded-full"
+                                  },
+                                  {
+                                    "id": "qafto_171152641171538688",
+                                    "type": "div",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171152641171541300",
+                                        "type": "h1",
+                                        "style": {
+                                          "fontWeight": 600,
+                                          "fontSize": "rimary_colo"
+                                        },
+                                        "css": "font-semibold text-lg text-primary_color group-hover:text-white",
+                                        "content": "Kathleen Smith"
+                                      },
+                                      {
+                                        "id": "qafto_171152641171562313",
+                                        "type": "p",
+                                        "style": {},
+                                        "css": "group-hover:text-white",
+                                        "content": "Fuel Company"
+                                      }
+                                    ],
+                                    "style": {},
+                                    "css": ""
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "flexDirection": "column",
+                                  "justifyContent": "center",
+                                  "width": "100%",
+                                  "gap": "8px"
+                                },
+                                "css": "flex items-center @xs:flex-row flex-col @xs:justify-normal justify-center @xs:w-auto w-full gap-2"
+                              },
+                              {
+                                "id": "qafto_171152641171625391",
+                                "type": "img",
+                                "style": { "width": "32px" },
+                                "data": {
+                                  "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/quote.png",
+                                  "alt": ""
+                                },
+                                "css": "@xs:w-10 w-8  @xs:place-self-auto place-self-start"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "flexDirection": "column",
+                              "rowGap": "20px",
+                              "marginBottom": "12px"
+                            },
+                            "css": "flex items-center @xs:justify-between @xs:flex-row flex-col gap-y-5 @xs:mb-5 mb-3"
+                          },
+                          {
+                            "id": "qafto_171152641171624130",
+                            "type": "p",
+                            "style": {
+                              "fontSize": "14px",
+                              "marginBottom": "12px",
+                              "color": "#6b7280"
+                            },
+                            "css": "text-sm @xs:mb-5 mb-3 text-gray-500 group-hover:text-white",
+                            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates aperiam nulla odio quam quod corporis nisi provident eius atque saepe dicta pariatur perspiciatis, quos, optio repellat debitis? Culpa veritatis magnam distinctio laborum iure."
+                          },
+                          {
+                            "id": "qafto_171152641171615469",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641171657031",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171660708",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171629873",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171635834",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171636460",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "4px",
+                              "alignItems": "center"
+                            },
+                            "css": "flex gap-1 items-center"
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "32px",
+                          "paddingBottom": "32px",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px"
+                        },
+                        "css": "@xs:py-10 py-8 @xl:px-10 px-5 bg-[#F4F4F4] group hover:bg-primary_color"
+                      },
+                      {
+                        "id": "qafto_171152641171662488",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171152641171616004",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641171754195",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171152641171711334",
+                                    "type": "img",
+                                    "style": {
+                                      "width": "64px",
+                                      "borderRadius": "9999px"
+                                    },
+                                    "data": {
+                                      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/testimonials2.png",
+                                      "alt": ""
+                                    },
+                                    "css": "w-16 aspect-[64/65] rounded-full"
+                                  },
+                                  {
+                                    "id": "qafto_171152641171742006",
+                                    "type": "div",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171152641171785982",
+                                        "type": "h1",
+                                        "style": {
+                                          "fontWeight": 600,
+                                          "fontSize": "rimary_colo"
+                                        },
+                                        "css": "font-semibold text-lg text-primary_color group-hover:text-white",
+                                        "content": "John Martin"
+                                      },
+                                      {
+                                        "id": "qafto_171152641171742181",
+                                        "type": "p",
+                                        "style": {},
+                                        "css": "group-hover:text-white",
+                                        "content": "Restoration Company"
+                                      }
+                                    ],
+                                    "style": {},
+                                    "css": ""
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "flexDirection": "column",
+                                  "justifyContent": "center",
+                                  "width": "100%",
+                                  "gap": "8px"
+                                },
+                                "css": "flex items-center @xs:flex-row flex-col @xs:justify-normal justify-center @xs:w-auto w-full gap-2"
+                              },
+                              {
+                                "id": "qafto_171152641171756286",
+                                "type": "img",
+                                "style": { "width": "32px" },
+                                "data": {
+                                  "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/quote.png",
+                                  "alt": ""
+                                },
+                                "css": "@xs:w-10 w-8  @xs:place-self-auto place-self-start"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "flexDirection": "column",
+                              "rowGap": "20px",
+                              "marginBottom": "12px"
+                            },
+                            "css": "flex items-center @xs:justify-between @xs:flex-row flex-col gap-y-5 @xs:mb-5 mb-3"
+                          },
+                          {
+                            "id": "qafto_171152641171782138",
+                            "type": "p",
+                            "style": {
+                              "fontSize": "14px",
+                              "marginBottom": "12px",
+                              "color": "#6b7280"
+                            },
+                            "css": "text-sm @xs:mb-5 mb-3 text-gray-500 group-hover:text-white",
+                            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates aperiam nulla odio quam quod corporis nisi provident eius atque saepe dicta pariatur perspiciatis, quos, optio repellat debitis? Culpa veritatis magnam distinctio laborum iure."
+                          },
+                          {
+                            "id": "qafto_171152641171783311",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641171782190",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171772649",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171773905",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171717049",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171834842",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "4px",
+                              "alignItems": "center"
+                            },
+                            "css": "flex gap-1 items-center"
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "32px",
+                          "paddingBottom": "32px",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px"
+                        },
+                        "css": "@xs:py-10 py-8 @xl:px-10 px-5 bg-[#F4F4F4] group hover:bg-primary_color"
+                      },
+                      {
+                        "id": "qafto_171152641171848760",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171152641171856675",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641171855791",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171152641171898042",
+                                    "type": "img",
+                                    "style": {
+                                      "width": "64px",
+                                      "borderRadius": "9999px"
+                                    },
+                                    "data": {
+                                      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/team1.png",
+                                      "alt": ""
+                                    },
+                                    "css": "w-16 aspect-[64/65] rounded-full"
+                                  },
+                                  {
+                                    "id": "qafto_171152641171824893",
+                                    "type": "div",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171152641171871223",
+                                        "type": "h1",
+                                        "style": {
+                                          "fontWeight": 600,
+                                          "fontSize": "rimary_colo"
+                                        },
+                                        "css": "font-semibold text-lg text-primary_color group-hover:text-white",
+                                        "content": "John Martin"
+                                      },
+                                      {
+                                        "id": "qafto_171152641171866063",
+                                        "type": "p",
+                                        "style": {},
+                                        "css": "group-hover:text-white",
+                                        "content": "Restoration Company"
+                                      }
+                                    ],
+                                    "style": {},
+                                    "css": ""
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "flexDirection": "column",
+                                  "justifyContent": "center",
+                                  "width": "100%",
+                                  "gap": "8px"
+                                },
+                                "css": "flex items-center @xs:flex-row flex-col @xs:justify-normal justify-center @xs:w-auto w-full gap-2"
+                              },
+                              {
+                                "id": "qafto_171152641171896580",
+                                "type": "img",
+                                "style": { "width": "32px" },
+                                "data": {
+                                  "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/quote.png",
+                                  "alt": ""
+                                },
+                                "css": "@xs:w-10 w-8  @xs:place-self-auto place-self-start"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "flexDirection": "column",
+                              "rowGap": "20px",
+                              "marginBottom": "12px"
+                            },
+                            "css": "flex items-center @xs:justify-between @xs:flex-row flex-col gap-y-5 @xs:mb-5 mb-3"
+                          },
+                          {
+                            "id": "qafto_171152641171869677",
+                            "type": "p",
+                            "style": {
+                              "fontSize": "14px",
+                              "marginBottom": "12px",
+                              "color": "#6b7280"
+                            },
+                            "css": "text-sm @xs:mb-5 mb-3 text-gray-500 group-hover:text-white",
+                            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates aperiam nulla odio quam quod corporis nisi provident eius atque saepe dicta pariatur perspiciatis, quos, optio repellat debitis? Culpa veritatis magnam distinctio laborum iure."
+                          },
+                          {
+                            "id": "qafto_171152641171936496",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641171930567",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171985223",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171919734",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171947503",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641171940434",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "4px",
+                              "alignItems": "center"
+                            },
+                            "css": "flex gap-1 items-center"
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "32px",
+                          "paddingBottom": "32px",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px"
+                        },
+                        "css": "@xs:py-10 py-8 @xl:px-10 px-5 bg-[#F4F4F4] group hover:bg-primary_color"
+                      },
+                      {
+                        "id": "qafto_171152641171951320",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171152641171920426",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641171979720",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171152641172038025",
+                                    "type": "img",
+                                    "style": {
+                                      "width": "64px",
+                                      "borderRadius": "9999px"
+                                    },
+                                    "data": {
+                                      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/testimonials1.png",
+                                      "alt": ""
+                                    },
+                                    "css": "w-16 aspect-[64/65] rounded-full"
+                                  },
+                                  {
+                                    "id": "qafto_171152641172088590",
+                                    "type": "div",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171152641172098775",
+                                        "type": "h1",
+                                        "style": {
+                                          "fontWeight": 600,
+                                          "fontSize": "rimary_colo"
+                                        },
+                                        "css": "font-semibold text-lg text-primary_color group-hover:text-white",
+                                        "content": "Kathleen Smith"
+                                      },
+                                      {
+                                        "id": "qafto_171152641172056374",
+                                        "type": "p",
+                                        "style": {},
+                                        "css": "group-hover:text-white",
+                                        "content": "Fuel Company"
+                                      }
+                                    ],
+                                    "style": {},
+                                    "css": ""
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "flexDirection": "column",
+                                  "justifyContent": "center",
+                                  "width": "100%",
+                                  "gap": "8px"
+                                },
+                                "css": "flex items-center @xs:flex-row flex-col @xs:justify-normal justify-center @xs:w-auto w-full gap-2"
+                              },
+                              {
+                                "id": "qafto_171152641172061222",
+                                "type": "img",
+                                "style": { "width": "32px" },
+                                "data": {
+                                  "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/quote.png",
+                                  "alt": ""
+                                },
+                                "css": "@xs:w-10 w-8  @xs:place-self-auto place-self-start"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "flexDirection": "column",
+                              "rowGap": "20px",
+                              "marginBottom": "12px"
+                            },
+                            "css": "flex items-center @xs:justify-between @xs:flex-row flex-col gap-y-5 @xs:mb-5 mb-3"
+                          },
+                          {
+                            "id": "qafto_171152641172072028",
+                            "type": "p",
+                            "style": {
+                              "fontSize": "14px",
+                              "marginBottom": "12px",
+                              "color": "#6b7280"
+                            },
+                            "css": "text-sm @xs:mb-5 mb-3 text-gray-500 group-hover:text-white",
+                            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates aperiam nulla odio quam quod corporis nisi provident eius atque saepe dicta pariatur perspiciatis, quos, optio repellat debitis? Culpa veritatis magnam distinctio laborum iure."
+                          },
+                          {
+                            "id": "qafto_171152641172085065",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641172076743",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641172099922",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641172089918",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641172099032",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641172117931",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "4px",
+                              "alignItems": "center"
+                            },
+                            "css": "flex gap-1 items-center"
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "32px",
+                          "paddingBottom": "32px",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px"
+                        },
+                        "css": "@xs:py-10 py-8 @xl:px-10 px-5 bg-[#F4F4F4] group hover:bg-primary_color"
+                      },
+                      {
+                        "id": "qafto_171152641172166447",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171152641172173972",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641172147393",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171152641172138832",
+                                    "type": "img",
+                                    "style": {
+                                      "width": "64px",
+                                      "borderRadius": "9999px"
+                                    },
+                                    "data": {
+                                      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/testimonials2.png",
+                                      "alt": ""
+                                    },
+                                    "css": "w-16 aspect-[64/65] rounded-full"
+                                  },
+                                  {
+                                    "id": "qafto_171152641172144488",
+                                    "type": "div",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171152641172172964",
+                                        "type": "h1",
+                                        "style": {
+                                          "fontWeight": 600,
+                                          "fontSize": "rimary_colo"
+                                        },
+                                        "css": "font-semibold text-lg text-primary_color group-hover:text-white",
+                                        "content": "John Martin"
+                                      },
+                                      {
+                                        "id": "qafto_171152641172180005",
+                                        "type": "p",
+                                        "style": {},
+                                        "css": "group-hover:text-white",
+                                        "content": "Restoration Company"
+                                      }
+                                    ],
+                                    "style": {},
+                                    "css": ""
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "flexDirection": "column",
+                                  "justifyContent": "center",
+                                  "width": "100%",
+                                  "gap": "8px"
+                                },
+                                "css": "flex items-center @xs:flex-row flex-col @xs:justify-normal justify-center @xs:w-auto w-full gap-2"
+                              },
+                              {
+                                "id": "qafto_171152641172117843",
+                                "type": "img",
+                                "style": { "width": "32px" },
+                                "data": {
+                                  "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/quote.png",
+                                  "alt": ""
+                                },
+                                "css": "@xs:w-10 w-8  @xs:place-self-auto place-self-start"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "flexDirection": "column",
+                              "rowGap": "20px",
+                              "marginBottom": "12px"
+                            },
+                            "css": "flex items-center @xs:justify-between @xs:flex-row flex-col gap-y-5 @xs:mb-5 mb-3"
+                          },
+                          {
+                            "id": "qafto_171152641172276904",
+                            "type": "p",
+                            "style": {
+                              "fontSize": "14px",
+                              "marginBottom": "12px",
+                              "color": "#6b7280"
+                            },
+                            "css": "text-sm @xs:mb-5 mb-3 text-gray-500 group-hover:text-white",
+                            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates aperiam nulla odio quam quod corporis nisi provident eius atque saepe dicta pariatur perspiciatis, quos, optio repellat debitis? Culpa veritatis magnam distinctio laborum iure."
+                          },
+                          {
+                            "id": "qafto_171152641172247596",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641172258819",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641172294702",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641172284468",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641172234022",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641172292692",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "4px",
+                              "alignItems": "center"
+                            },
+                            "css": "flex gap-1 items-center"
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "32px",
+                          "paddingBottom": "32px",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px"
+                        },
+                        "css": "@xs:py-10 py-8 @xl:px-10 px-5 bg-[#F4F4F4] group hover:bg-primary_color"
+                      },
+                      {
+                        "id": "qafto_171152641172332928",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171152641172329360",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641172364820",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171152641172411158",
+                                    "type": "img",
+                                    "style": {
+                                      "width": "64px",
+                                      "borderRadius": "9999px"
+                                    },
+                                    "data": {
+                                      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/team1.png",
+                                      "alt": ""
+                                    },
+                                    "css": "w-16 aspect-[64/65] rounded-full"
+                                  },
+                                  {
+                                    "id": "qafto_171152641172482289",
+                                    "type": "div",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171152641172486061",
+                                        "type": "h1",
+                                        "style": {
+                                          "fontWeight": 600,
+                                          "fontSize": "rimary_colo"
+                                        },
+                                        "css": "font-semibold text-lg text-primary_color group-hover:text-white",
+                                        "content": "John Martin"
+                                      },
+                                      {
+                                        "id": "qafto_171152641172439356",
+                                        "type": "p",
+                                        "style": {},
+                                        "css": "group-hover:text-white",
+                                        "content": "Restoration Company"
+                                      }
+                                    ],
+                                    "style": {},
+                                    "css": ""
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "flexDirection": "column",
+                                  "justifyContent": "center",
+                                  "width": "100%",
+                                  "gap": "8px"
+                                },
+                                "css": "flex items-center @xs:flex-row flex-col @xs:justify-normal justify-center @xs:w-auto w-full gap-2"
+                              },
+                              {
+                                "id": "qafto_171152641172456848",
+                                "type": "img",
+                                "style": { "width": "32px" },
+                                "data": {
+                                  "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/quote.png",
+                                  "alt": ""
+                                },
+                                "css": "@xs:w-10 w-8  @xs:place-self-auto place-self-start"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "flexDirection": "column",
+                              "rowGap": "20px",
+                              "marginBottom": "12px"
+                            },
+                            "css": "flex items-center @xs:justify-between @xs:flex-row flex-col gap-y-5 @xs:mb-5 mb-3"
+                          },
+                          {
+                            "id": "qafto_171152641172457739",
+                            "type": "p",
+                            "style": {
+                              "fontSize": "14px",
+                              "marginBottom": "12px",
+                              "color": "#6b7280"
+                            },
+                            "css": "text-sm @xs:mb-5 mb-3 text-gray-500 group-hover:text-white",
+                            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates aperiam nulla odio quam quod corporis nisi provident eius atque saepe dicta pariatur perspiciatis, quos, optio repellat debitis? Culpa veritatis magnam distinctio laborum iure."
+                          },
+                          {
+                            "id": "qafto_171152641172462991",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171152641172440834",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641172419459",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641172423627",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641172486402",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              },
+                              {
+                                "id": "qafto_171152641172489949",
+                                "type": "span",
+                                "style": { "fontSize": "18px" },
+                                "css": "mdi mdi-star text-secondary_color @lg:text-xl text-lg"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "4px",
+                              "alignItems": "center"
+                            },
+                            "css": "flex gap-1 items-center"
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "32px",
+                          "paddingBottom": "32px",
+                          "paddingLeft": "20px",
+                          "paddingRight": "20px"
+                        },
+                        "css": "@xs:py-10 py-8 @xl:px-10 px-5 bg-[#F4F4F4] group hover:bg-primary_color"
+                      }
+                    ],
+                    "style": {},
+                    "css": ""
+                  }
+                ],
+                "style": {},
+                "css": " ",
+                "data": { "dir": "ltr" }
+              }
+            ],
+            "style": {},
+            "css": "relative"
+          }
+        ],
+        "style": { "width": "100%", "fontWeight": 500, "fontFamily": "Krub" },
+        "css": "w-full font-medium"
+      }
+    ],
+    "style": {
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "marginBottom": "96px"
+    },
+    "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5 mb-24"
+  },
+  {
+    "id": "qafto_171101619780794679",
+    "type": "div",
+    "children": [
+      {
+        "id": "qafto_171101619780758370",
+        "type": "div",
+        "children": [
+          {
+            "id": "qafto_171101619780773489",
+            "type": "img",
+            "style": { "width": "100%", "height": "100%" },
+            "data": {
+              "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/footerlogo.png",
+              "alt": ""
+            },
+            "css": "w-full object-cover h-full"
+          }
+        ],
+        "style": { "width": "100%", "height": "240px" },
+        "css": "w-full @2xl:h-96 @xl:h-full @lg:h-80 @md:h-72 @sm:h-64 h-60 "
+      },
+      {
+        "id": "qafto_171101619780748508",
+        "type": "div",
+        "children": [
+          {
+            "id": "qafto_171101619780721458",
+            "type": "section",
+            "children": [
+              {
+                "id": "qafto_171101619780815206",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101619780857489",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101619780863972",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101619780875825",
+                            "type": "img",
+                            "style": {
+                              "height": "100%",
+                              "width": "100%"
+                            },
+                            "data": {
+                              "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/logo.png",
+                              "alt": ""
+                            },
+                            "css": "h-full w-full object-cover"
+                          }
+                        ],
+                        "style": {
+                          "width": "112px",
+                          "marginBottom": "20px"
+                        },
+                        "css": "w-28 @sm:mb-12 mb-5"
+                      },
+                      {
+                        "id": "qafto_171101619780873797",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101619780887742",
+                            "type": "p",
+                            "style": { "marginBottom": "20px" },
+                            "css": "mb-5 @xs:w-11/12",
+                            "content": "Leverage agile frameworks to provide a robust synopsis for startegy collaborative thinking for further the overall value proposition"
+                          },
+                          {
+                            "id": "qafto_171101619780876690",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101619780875539",
+                                "type": "span",
+                                "style": {
+                                  "paddingTop": "4px",
+                                  "paddingBottom": "4px",
+                                  "paddingLeft": "8px",
+                                  "paddingRight": "8px",
+                                  "borderRadius": "9999px",
+                                  "borderWidth": "1px",
+                                  "borderColor": "#273270",
+                                  "backgroundColor": "#111C55",
+                                  "fontSize": "econdary_colo"
+                                },
+                                "css": "mdi mdi-email-outline py-1 px-2  rounded-full border border-[#273270] bg-[#111C55] text-secondary_color"
+                              },
+                              {
+                                "id": "qafto_171101619780919687",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171101619780994638",
+                                    "type": "p",
+                                    "style": {},
+                                    "css": "",
+                                    "content": "Email"
+                                  },
+                                  {
+                                    "id": "qafto_171101619780913631",
+                                    "type": "p",
+                                    "style": {},
+                                    "css": "",
+                                    "content": "Contact@logistics.com"
+                                  }
+                                ],
+                                "style": { "fontSize": "12px" },
+                                "css": "text-xs cursor-pointer"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "12px",
+                              "alignItems": "center"
+                            },
+                            "css": "flex gap-3 items-center"
+                          },
+                          {
+                            "id": "qafto_171101619780983062",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101619780944658",
+                                "type": "span",
+                                "style": {
+                                  "paddingTop": "4px",
+                                  "paddingBottom": "4px",
+                                  "paddingLeft": "8px",
+                                  "paddingRight": "8px",
+                                  "borderRadius": "9999px",
+                                  "borderWidth": "1px",
+                                  "borderColor": "#273270",
+                                  "backgroundColor": "#111C55",
+                                  "fontSize": "econdary_colo"
+                                },
+                                "css": "mdi mdi-phone-outline py-1 px-2  rounded-full border border-[#273270] bg-[#111C55] text-secondary_color"
+                              },
+                              {
+                                "id": "qafto_171101619781045295",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171101619781015029",
+                                    "type": "p",
+                                    "style": {},
+                                    "content": "Call Us"
+                                  },
+                                  {
+                                    "id": "qafto_171101619781065848",
+                                    "type": "p",
+                                    "style": {},
+                                    "content": "(001) 112 365 489"
+                                  }
+                                ],
+                                "style": { "fontSize": "12px" },
+                                "css": "text-xs cursor-pointer"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "12px",
+                              "alignItems": "center",
+                              "marginTop": "20px"
+                            },
+                            "css": "flex gap-3 items-center mt-5"
+                          }
+                        ],
+                        "style": { "fontSize": "14px" },
+                        "css": " text-sm"
+                      }
+                    ],
+                    "style": {},
+                    "css": "@sm:order-1 order-2"
+                  },
+                  {
+                    "id": "qafto_171101619781096066",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101524095438272",
+                        "type": "h1",
+                        "style": {
+                          "fontSize": "20px",
+                          "fontWeight": 500,
+                          "marginBottom": "20px",
+                          "fontFamily": "Rubik"
+                        },
+                        "css": "text-xl font-medium @sm:mb-12 mb-5",
+                        "content": "Pages"
+                      },
+                      {
+                        "id": "qafto_171101524095565677",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101524095577829",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "About Us",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/about",
+                                  "newTab": false,
+                                  "pageName": "About",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "qafto_171101524095522556",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "Services",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/services",
+                                  "newTab": false,
+                                  "pageName": "ServicesPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "qafto_171101524095546443",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "Our Project",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/projects",
+                                  "newTab": false,
+                                  "pageName": "ProjectPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "qafto_171101524095550427",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "Blog",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/blogs",
+                                  "newTab": false,
+                                  "pageName": "BlogsPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "qafto_171101524095597477",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "Contact",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/contact",
+                                  "newTab": false,
+                                  "pageName": "ContactUs",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "gap": "16px",
+                          "fontSize": "14px"
+                        },
+                        "css": "flex flex-col gap-4 text-sm"
+                      }
+                    ],
+                    "style": { "height": "100%" },
+                    "css": "@sm:order-2 order-3 @sm:place-self-center h-full"
+                  },
+                  {
+                    "id": "qafto_171101619781036852",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101619781133691",
+                        "type": "h1",
+                        "style": {
+                          "fontSize": "20px",
+                          "fontWeight": 500,
+                          "marginBottom": "20px",
+                          "fontFamily": "Rubik"
+                        },
+                        "css": "text-xl font-medium @sm:mb-12 mb-5",
+                        "content": "Subscribe"
+                      },
+                      {
+                        "id": "qafto_171101619781192382",
+                        "type": "FormikComponent",
+                        "data": {
+                          "form_id": "lo8cyvc3bido1xsharn",
+                          "form_name": "newformlo8cyvc3bwxoharbs6cn",
+                          "display_name": "ContactUs",
+
+                          "formik_state": {
+                            "email": ""
+                          },
+                          "url": "newsletter/subscribe",
+                          "function": "NewsletterStatic",
+                          "tablename": "newsletter2",
+                          "navigate": "/",
+                          "successMsg": "Thank you for getting in touch with us!",
+                          "failMsg": "Please try again."
+                        },
+                        "children": [
+                          {
+                            "id": "qafto_171101619781155593",
+                            "type": "EmailField",
+                            "data": {
+                              "css": {
+                                "help": "",
+                                "input": "@xs:w-11/12 w-full mb-2 py-2 px-3 bg-transparent outline-none text-sm border border-[#273270]",
+                                "label": "",
+                                "warning": "capitalize text-xs text-red-600",
+                                "helpStyle": {},
+                                "inputStyle": {
+                                  "width": "100%",
+                                  "marginBottom": "8px",
+                                  "paddingTop": "8px",
+                                  "paddingBottom": "8px",
+                                  "paddingLeft": "12px",
+                                  "paddingRight": "12px",
+                                  "backgroundColor": "transparent",
+                                  "fontSize": "14px",
+                                  "borderWidth": "1px",
+                                  "borderColor": "#273270"
+                                },
+                                "warningStyle": {
+                                  "color": "#dc2626",
+                                  "marginTop": "4px",
+                                  "fontSize": "14px",
+                                  "textTransform": "capitalize"
+                                }
+                              },
+                              "help": false,
+                              "name": "Email",
+                              "label": false,
+                              "helpText": "",
+                              "required": true,
+                              "unique": true,
+                              "inputType": "email",
+                              "labelText": "",
+                              "stateName": "email",
+                              "placeholder": "Email",
+                              "minLength": 6,
+                              "validations": [
+                                {
+                                  "type": "required",
+                                  "message": "Email is required"
+                                },
+                                {
+                                  "type": "isEmail",
+                                  "message": "Please enter a valid email address"
+                                },
+                                {
+                                  "type": "minLength",
+                                  "value": 6,
+                                  "message": "Minimum 6 characters required"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "id": "qafto_171101619781290198",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101619781282526",
+                                "type": "button",
+                                "style": {
+                                  "paddingTop": "8px",
+                                  "paddingBottom": "8px",
+                                  "paddingLeft": "20px",
+                                  "paddingRight": "20px",
+                                  "fontSize": "rimary_colo",
+                                  "fontWeight": 500
+                                },
+                                "data": {
+                                  "type": "submit",
+                                  "formButton": true
+                                },
+                                "css": "py-2 px-5  text-sm bg-gradient-to-r from-secondary_color from-20% via-[#FFDA56] via-80% to-[#FFD7A6] text-primary_color font-medium",
+                                "content": "Send Now"
+                              },
+                              {
+                                "id": "qafto_171101619781253171",
+                                "type": "span",
+                                "style": {},
+                                "css": "mdi mdi-linkedin cursor-pointer"
+                              },
+                              {
+                                "id": "qafto_171101619781212696",
+                                "type": "span",
+                                "style": {},
+                                "css": "mdi mdi-twitter cursor-pointer"
+                              },
+                              {
+                                "id": "qafto_171101619781279396",
+                                "type": "span",
+                                "style": {},
+                                "css": "mdi mdi-facebook cursor-pointer"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "gap": "12px"
+                            },
+                            "css": "flex items-center gap-3"
+                          }
+                        ],
+                        "style": { "width": "100%" },
+                        "css": "w-full"
+                      }
+                    ],
+                    "style": {},
+                    "css": "@sm:order-3 order-1"
+                  }
+                ],
+                "style": {
+                  "display": "grid",
+                  "gap": "40px",
+                  "rowGap": "40px",
+                  "paddingTop": "32px",
+                  "paddingBottom": "32px"
+                },
+                "css": "grid @md:grid-cols-3 @sm:grid-cols-2 gap-10 gap-y-10 py-8"
+              },
+              {
+                "id": "qafto_171101619781264319",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101619781253105",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101619781236852",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101619781325178",
+                            "type": "p",
+                            "style": {},
+                            "content": "CopyRight © | Designed 2024"
+                          },
+                          {
+                            "id": "qafto_171101619781379150",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101619781357150",
+                                "type": "p",
+                                "style": {},
+                                "content": "Terms & Condition"
+                              },
+                              {
+                                "id": "qafto_171101619781380689",
+                                "type": "p",
+                                "style": {},
+                                "content": "Privacy Policy"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "gap": "16px",
+                              "fontSize": "12px"
+                            },
+                            "css": "flex items-center gap-4 @xs:text-sm text-xs "
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "alignItems": "center",
+                          "flexDirection": "column",
+                          "rowGap": "20px",
+                          "fontSize": "14px"
+                        },
+                        "css": "flex items-center @sm:flex-row flex-col @sm:justify-between gap-y-5 text-sm"
+                      }
+                    ],
+                    "style": {
+                      "marginLeft": "auto",
+                      "marginRight": "auto",
+                      "paddingLeft": "20px",
+                      "paddingRight": "20px",
+                      "color": "white"
+                    },
+                    "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-0 @md:px-10 px-5 text-white"
+                  }
+                ],
+                "style": {
+                  "width": "100%",
+                  "borderTopWidth": "1px",
+                  "borderColor": "#273270",
+                  "paddingTop": "16px",
+                  "paddingBottom": "16px",
+                  "marginTop": "16px"
+                },
+                "css": "w-full border-t border-[#273270] py-4 mt-4"
+              }
+            ],
+            "style": {
+              "marginLeft": "auto",
+              "marginRight": "auto",
+              "paddingLeft": "20px",
+              "paddingRight": "20px",
+              "color": "white"
+            },
+            "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5 text-white"
+          }
+        ],
+        "style": { "color": "white" },
+        "css": "bg-primary_color text-white"
+      }
+    ],
+    "style": { "fontFamily": "Krub" },
+    "css": ""
+  }
+]

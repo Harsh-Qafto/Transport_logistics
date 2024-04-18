@@ -1,0 +1,2479 @@
+[
+  {
+    "id": "qafto_171101524080712040",
+    "type": "section",
+    "children": [
+      {
+        "id": "qafto_171101524080790584",
+        "type": "section",
+        "children": [
+          {
+            "id": "qafto_171101524080818576",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101524080988138",
+                "type": "span",
+                "style": { "display": "block" },
+                "css": "mdi mdi-menu @md:hidden block cursor-pointer ",
+                "events": {
+                  "onClick": {
+                    "task": "Toggle Element",
+                    "parameters": {
+                      "id": "qafto_171101524080980450"
+                    }
+                  }
+                }
+              },
+              {
+                "id": "qafto_171101524080980450",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101524080970523",
+                    "type": "ul",
+                    "children": [
+                      {
+                        "id": "qafto_171101524080990939",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081097322",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Home",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/",
+                                  "newTab": false,
+                                  "pageName": "HomePage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:pr-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081054959",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081040361",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "About",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/about",
+                                  "newTab": false,
+                                  "pageName": "About",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081117866",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081116076",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Services",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/services",
+                                  "newTab": false,
+                                  "pageName": "ServicesPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081197844",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081235186",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Project",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/projects",
+                                  "newTab": false,
+                                  "pageName": "ProjectPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081245718",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081247059",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Blogs",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/blogs",
+                                  "newTab": false,
+                                  "pageName": "BlogsPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "borderColor": "#6b7280"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:border-r border-gray-500",
+                        "content": " "
+                      },
+                      {
+                        "id": "qafto_171101524081248538",
+                        "type": "li",
+                        "children": [
+                          {
+                            "id": "qafto_171101524081344732",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "relative after:absolute after:left-0 after:right-0 @md:after:bottom-[-0.8rem] after:bottom-[-0.5rem] hover:after:bg-white hover:after:h-[0.14rem] duration-300 ",
+                            "content": "Contact",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/contact",
+                                  "newTab": false,
+                                  "pageName": "ContactUs",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px"
+                        },
+                        "css": "@sm:px-4 @sm:py-0 py-2 @sm:pr-3",
+                        "content": " "
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "flexDirection": "column",
+                      "fontSize": "14px",
+                      "paddingTop": "12px",
+                      "paddingBottom": "12px"
+                    },
+                    "css": "flex z-50 items-center @md:justify-normal justify-center @sm:flex-row flex-col text-sm py-3"
+                  },
+                  {
+                    "id": "qafto_171101524081392790",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101524081367441",
+                        "type": "a",
+                        "style": {},
+                        "data": { "href": "#" },
+                        "css": "mdi mdi-instagram cursor-pointer"
+                      },
+                      {
+                        "id": "qafto_171101524081359777",
+                        "type": "a",
+                        "style": {},
+                        "data": { "href": "#" },
+                        "css": "mdi mdi-facebook cursor-pointer"
+                      },
+                      {
+                        "id": "qafto_171101524081354085",
+                        "type": "a",
+                        "style": {},
+                        "data": { "href": "#" },
+                        "css": "mdi mdi-twitter cursor-pointer"
+                      },
+                      {
+                        "id": "qafto_171101524081474439",
+                        "type": "a",
+                        "style": {},
+                        "data": { "href": "#" },
+                        "css": "mdi mdi-linkedin"
+                      }
+                    ],
+                    "style": {
+                      "display": "flex",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "gap": "16px",
+                      "marginBottom": "12px",
+                      "fontWeight": 500
+                    },
+                    "css": "@xs:hidden flex z-50 items-center @md:justify-normal justify-center @lg:gap-4 @md:gap-2 gap-4 mb-3 font-medium"
+                  }
+                ],
+                "style": { "display": "block", "color": "white" },
+                "css": "@md:block z-50 block @md:static absolute @xs:top-12 top-10 left-0 right-0 bg-primary_color text-white"
+              },
+              {
+                "id": "qafto_171101524081442510",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101524081414818",
+                    "type": "a",
+                    "style": {},
+                    "data": { "href": "#" },
+                    "css": "mdi mdi-instagram cursor-pointer"
+                  },
+                  {
+                    "id": "qafto_171101524081493060",
+                    "type": "a",
+                    "style": {},
+                    "data": { "href": "#" },
+                    "css": "mdi mdi-facebook cursor-pointer"
+                  },
+                  {
+                    "id": "qafto_171101524081435318",
+                    "type": "a",
+                    "style": {},
+                    "data": { "href": "#" },
+                    "css": "mdi mdi-twitter cursor-pointer"
+                  },
+                  {
+                    "id": "qafto_171101524081490080",
+                    "type": "a",
+                    "style": {},
+                    "data": { "href": "#" },
+                    "css": "mdi mdi-linkedin cursor-pointer"
+                  },
+                  {
+                    "id": "qafto_171101524081449608",
+                    "type": "button",
+                    "style": {
+                      "backgroundColor": "white",
+                      "fontSize": "12px",
+                      "paddingLeft": "8px",
+                      "paddingRight": "8px",
+                      "paddingTop": "4px",
+                      "paddingBottom": "4px"
+                    },
+                    "css": "bg-white text-primary_color @lg:px-5 @md:px-2 @xs:px-4 px-2 @xs:py-3 py-1 @lg:text-base @xs:text-sm text-xs ",
+                    "content": "Request Quote",
+                    "events": {
+                      "onClick": {
+                        "task": "Navigate",
+                        "parameters": {
+                          "path": "/contact",
+                          "newTab": false,
+                          "pageName": "ContactUs",
+                          "navigationType": "Page"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "style": {
+                  "display": "hidden",
+                  "alignItems": "center",
+                  "gap": "12px",
+                  "fontWeight": 500
+                },
+                "css": "@xs:flex hidden z-50 items-center @lg:gap-4 @md:gap-2 @xs:gap-4 gap-3 font-medium"
+              },
+              {
+                "id": "qafto_171101524081589028",
+                "type": "button",
+                "style": {
+                  "display": "block",
+                  "fontWeight": 500,
+                  "backgroundColor": "white",
+                  "fontSize": "12px",
+                  "paddingLeft": "8px",
+                  "paddingRight": "8px",
+                  "paddingTop": "4px",
+                  "paddingBottom": "4px"
+                },
+                "css": "@xs:hidden block font-medium bg-white text-primary_color @lg:px-5 @md:px-2 @xs:px-4 px-2 @xs:py-3 py-1 @lg:text-base @xs:text-sm text-xs ",
+                "content": "Request Quote",
+                "events": {
+                  "onClick": {
+                    "task": "Navigate",
+                    "parameters": {
+                      "path": "/contact",
+                      "newTab": false,
+                      "pageName": "ContactUs",
+                      "navigationType": "Page"
+                    }
+                  }
+                }
+              }
+            ],
+            "style": {
+              "display": "flex",
+              "alignItems": "center",
+              "justifyContent": "space-between",
+              "gap": "12px"
+            },
+            "css": "flex items-center justify-between gap-3 "
+          }
+        ],
+        "style": {
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "paddingLeft": "20px",
+          "paddingRight": "20px"
+        },
+        "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5 "
+      }
+    ],
+    "style": {
+      "color": "white",
+      "paddingTop": "8px",
+      "paddingBottom": "8px",
+      "fontFamily": "Krub"
+    },
+    "css": "bg-primary_color relative text-white py-2 "
+  },
+
+  {
+    "id": "qafto_171101668306928425",
+    "type": "section",
+    "children": [
+      {
+        "id": "qafto_171101668307057415",
+        "type": "h1",
+        "style": { "fontFamily": "Rubik" },
+        "content": "About Our Logistics"
+      }
+    ],
+    "style": {
+      "width": "100%",
+      "paddingTop": "64px",
+      "paddingBottom": "64px",
+      "paddingLeft": "40px",
+      "paddingRight": "40px",
+      "textAlign": "center",
+      "color": "white",
+      "fontWeight": 500,
+      "fontSize": "24px"
+    },
+    "css": "w-full py-16 px-10 text-center text-white bg-[url('https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/Header.png')] bg-no-repeat bg-cover bg-center font-medium @sm:text-3xl text-2xl",
+    "data": {
+      "backgroundImage": true,
+      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/Header.png"
+    }
+  },
+
+  {
+    "id": "qafto_171101668307094424",
+    "type": "section",
+    "children": [
+      {
+        "id": "qafto_171101668307036404",
+        "type": "div",
+        "children": [
+          {
+            "id": "qafto_171101668307050197",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101668307082381",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101668307019469",
+                    "type": "img",
+                    "style": { "width": "100%", "height": "288px" },
+                    "data": {
+                      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/faq1.png",
+                      "alt": ""
+                    },
+                    "css": "w-full object-cover @xl:h-auto @lg:h-full @xs:h-80 h-72"
+                  },
+                  {
+                    "id": "qafto_171101668307036413",
+                    "type": "img",
+                    "style": {
+                      "width": "128px",
+                      "borderWidth": "8px",
+                      "borderColor": "white"
+                    },
+                    "data": {
+                      "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/faq2.png",
+                      "alt": ""
+                    },
+                    "css": "absolute bottom-[-4rem] @lg:right-[-4rem] right-0  @xl:w-60 @md:w-56 @sm:w-52 @xs:w-40 w-32 @sm:border-[1rem] border-8 border-white"
+                  }
+                ],
+                "style": { "width": "100%" },
+                "css": "relative w-full @xl:h-auto @lg:h-full z-[-1]"
+              }
+            ],
+            "style": {},
+            "css": ""
+          },
+          {
+            "id": "qafto_171101668307054918",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101668307041774",
+                "type": "p",
+                "style": {
+                  "paddingLeft": "12px",
+                  "paddingRight": "12px",
+                  "paddingTop": "4px",
+                  "paddingBottom": "4px",
+                  "borderLeftWidth": "4px",
+                  "fontSize": "14px",
+                  "width": "max-content",
+                  "marginBottom": "12px"
+                },
+                "css": "px-3 py-1 bg-[#F4F4F4] border-l-4 border-secondary_color text-sm  w-max mb-3",
+                "content": "About Us"
+              },
+              {
+                "id": "qafto_171101668307169480",
+                "type": "h1",
+                "style": {
+                  "fontSize": "20px",
+                  "fontWeight": 600,
+                  "marginBottom": "12px",
+                  "fontFamily": "Rubik"
+                },
+                "css": "@lg:text-3xl @xs:text-2xl text-xl font-semibold mb-3",
+                "content": "Our Company Overview"
+              },
+              {
+                "id": "qafto_171101668307156257",
+                "type": "p",
+                "style": { "color": "#9ca3af", "marginBottom": "20px" },
+                "css": "text-gray-400 mb-5",
+                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iste libero tenetur, soluta rerum ullam corrupti ipsam esse, quo eveniet tempore qui quaerat sequi recusandae at dignissimos laudantium voluptatem mollitia repellendus quod animi aperiam."
+              },
+              {
+                "id": "qafto_171101668307159680",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101668307230097",
+                    "type": "button",
+                    "style": {
+                      "fontSize": "14px",
+                      "paddingTop": "8px",
+                      "paddingBottom": "8px",
+                      "paddingLeft": "12px",
+                      "paddingRight": "12px"
+                    },
+                    "css": "bg-[#F4F4F4] hover:bg-secondary_color hover:text-white text-primary_color outline-none py-2 px-3 text-sm ",
+                    "content": "Our Approach"
+                  },
+                  {
+                    "id": "qafto_171101668307256735",
+                    "type": "button",
+                    "style": {
+                      "fontSize": "14px",
+                      "paddingTop": "8px",
+                      "paddingBottom": "8px",
+                      "paddingLeft": "12px",
+                      "paddingRight": "12px"
+                    },
+                    "css": "bg-[#F4F4F4] hover:bg-secondary_color hover:text-white text-primary_color outline-none py-2 px-3 text-sm ",
+                    "content": "Our Approach"
+                  },
+                  {
+                    "id": "qafto_171101668307235029",
+                    "type": "button",
+                    "style": {
+                      "fontSize": "14px",
+                      "paddingTop": "8px",
+                      "paddingBottom": "8px",
+                      "paddingLeft": "12px",
+                      "paddingRight": "12px"
+                    },
+                    "css": "bg-[#F4F4F4] hover:bg-secondary_color hover:text-white text-primary_color outline-none py-2 px-3 text-sm ",
+                    "content": "Our Approach"
+                  }
+                ],
+                "style": {
+                  "display": "grid",
+                  "alignItems": "center",
+                  "gap": "8px",
+                  "marginBottom": "20px"
+                },
+                "css": "grid @sm:grid-cols-3 @xs:grid-cols-2 items-center gap-2 mb-5"
+              },
+              {
+                "id": "qafto_171101668307290346",
+                "type": "p",
+                "style": { "color": "#9ca3af", "marginBottom": "20px" },
+                "css": "text-gray-400 mb-5",
+                "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum nihil voluptatum tenetur. Quo nesciunt voluptate excepturi quibusdam nam officiis expedita minus? Optio aut error provident ratione voluptates labore delectus voluptate corporis expedita dolores velit totam est placeat unde, odit maxime nam et ea consequatur veritatis. Quia veniam recusandae magni fugaLorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque at, officiis nostrum quaerat quasi dolorem illo odio et ipsa vitae rem recusandae optio! Reiciendis atque"
+              }
+            ],
+            "style": { "fontWeight": 600, "fontSize": "14px" },
+            "css": "font-semibold text-sm"
+          }
+        ],
+        "style": {
+          "display": "grid",
+          "alignItems": "center",
+          "gap": "80px"
+        },
+        "css": "grid @lg:grid-cols-2 items-center gap-20"
+      }
+    ],
+    "style": {
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "marginTop": "80px",
+      "marginBottom": "128px",
+      "fontFamily": "Krub"
+    },
+    "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5 mt-20 mb-32"
+  },
+
+  {
+    "id": "qafto_171101668307252932",
+    "type": "div",
+    "children": [
+      {
+        "id": "qafto_171101668307296881",
+        "type": "section",
+        "children": [
+          {
+            "id": "qafto_171101668307330442",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101668307391389",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101668307325452",
+                    "type": "p",
+                    "style": {
+                      "paddingLeft": "12px",
+                      "paddingRight": "12px",
+                      "paddingTop": "4px",
+                      "paddingBottom": "4px",
+                      "borderLeftWidth": "4px",
+                      "fontSize": "14px",
+                      "width": "max-content",
+                      "marginBottom": "12px"
+                    },
+                    "css": "px-3 py-1 bg-[#F4F4F4] border-l-4 border-secondary_color text-sm w-max mb-3",
+                    "content": "What we do"
+                  },
+                  {
+                    "id": "qafto_171101668307362817",
+                    "type": "h1",
+                    "style": {
+                      "fontSize": "20px",
+                      "marginBottom": "20px",
+                      "fontWeight": 600,
+                      "fontFamily": "Rubik"
+                    },
+                    "css": "@lg:text-4xl @xs:text-3xl text-xl mb-5 font-semibold",
+                    "content": "Our Logistic Services"
+                  },
+                  {
+                    "id": "qafto_171101668307363715",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101668307464296",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668307561337",
+                            "type": "img",
+                            "style": { "width": "32px" },
+                            "data": {
+                              "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/serviceicon.png",
+                              "alt": ""
+                            },
+                            "css": "@sm:w-10 w-8"
+                          },
+                          {
+                            "id": "qafto_171101668307546090",
+                            "type": "h1",
+                            "style": {},
+                            "css": "@sm:text-lg",
+                            "content": "Sea Transport Service"
+                          },
+                          {
+                            "id": "qafto_171101668307553707",
+                            "type": "p",
+                            "style": {
+                              "color": "#6b7280",
+                              "textAlign": "center",
+                              "fontSize": "14px"
+                            },
+                            "css": "text-gray-500 @xs:text-start text-center @sm:text-base text-sm",
+                            "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, esse!"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "alignItems": "center",
+                          "gap": "8px"
+                        },
+                        "css": "flex flex-col @xs:items-start items-center @xs:gap-3 gap-2"
+                      },
+                      {
+                        "id": "qafto_171101668307691693",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668307650838",
+                            "type": "img",
+                            "style": { "width": "32px" },
+                            "data": {
+                              "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/icon2.png",
+                              "alt": ""
+                            },
+                            "css": "@sm:w-10 w-8"
+                          },
+                          {
+                            "id": "qafto_171101668307682356",
+                            "type": "h1",
+                            "style": {},
+                            "css": "@sm:text-lg",
+                            "content": "Warehousing Services"
+                          },
+                          {
+                            "id": "qafto_171101668307679804",
+                            "type": "p",
+                            "style": {
+                              "color": "#6b7280",
+                              "textAlign": "center",
+                              "fontSize": "14px"
+                            },
+                            "css": "text-gray-500 @xs:text-start text-center @sm:text-base text-sm",
+                            "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, esse!"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "alignItems": "center",
+                          "gap": "8px"
+                        },
+                        "css": "flex flex-col @xs:items-start items-center @xs:gap-3 gap-2"
+                      },
+                      {
+                        "id": "qafto_171101668307633396",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668307635069",
+                            "type": "img",
+                            "style": { "width": "32px" },
+                            "data": {
+                              "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/icon3.png",
+                              "alt": ""
+                            },
+                            "css": "@sm:w-10 w-8"
+                          },
+                          {
+                            "id": "qafto_171101668307644739",
+                            "type": "h1",
+                            "style": {},
+                            "css": "@sm:text-lg",
+                            "content": "Air Flight Service"
+                          },
+                          {
+                            "id": "qafto_171101668307761192",
+                            "type": "p",
+                            "style": {
+                              "color": "#6b7280",
+                              "textAlign": "center",
+                              "fontSize": "14px"
+                            },
+                            "css": "text-gray-500 @xs:text-start text-center @sm:text-base text-sm",
+                            "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, esse!"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "alignItems": "center",
+                          "gap": "8px"
+                        },
+                        "css": "flex flex-col @xs:items-start items-center @xs:gap-3 gap-2"
+                      },
+                      {
+                        "id": "qafto_171101668307783945",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668307850142",
+                            "type": "img",
+                            "style": { "width": "32px" },
+                            "data": {
+                              "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/icon4.png",
+                              "alt": ""
+                            },
+                            "css": "@sm:w-10 w-8"
+                          },
+                          {
+                            "id": "qafto_171101668307856433",
+                            "type": "h1",
+                            "style": {},
+                            "css": "@sm:text-lg",
+                            "content": "Project & Exhibition"
+                          },
+                          {
+                            "id": "qafto_171101668307834051",
+                            "type": "p",
+                            "style": {
+                              "color": "#6b7280",
+                              "textAlign": "center",
+                              "fontSize": "14px"
+                            },
+                            "css": "text-gray-500 @xs:text-start text-center @sm:text-base text-sm",
+                            "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, esse!"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "alignItems": "center",
+                          "gap": "8px"
+                        },
+                        "css": "flex flex-col @xs:items-start items-center @xs:gap-3 gap-2"
+                      },
+                      {
+                        "id": "qafto_171101668307834102",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668307861111",
+                            "type": "img",
+                            "style": { "width": "32px" },
+                            "data": {
+                              "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/icon5.png",
+                              "alt": ""
+                            },
+                            "css": "@sm:w-10 w-8"
+                          },
+                          {
+                            "id": "qafto_171101668307838816",
+                            "type": "h1",
+                            "style": {},
+                            "css": "@sm:text-lg",
+                            "content": "Local Shipping Service"
+                          },
+                          {
+                            "id": "qafto_171101668307850701",
+                            "type": "p",
+                            "style": {
+                              "color": "#6b7280",
+                              "textAlign": "center",
+                              "fontSize": "14px"
+                            },
+                            "css": "text-gray-500 @xs:text-start text-center @sm:text-base text-sm",
+                            "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, esse!"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "alignItems": "center",
+                          "gap": "8px"
+                        },
+                        "css": "flex flex-col @xs:items-start items-center @xs:gap-3 gap-2"
+                      },
+                      {
+                        "id": "qafto_171101668307931448",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668307945316",
+                            "type": "img",
+                            "style": { "width": "32px" },
+                            "data": {
+                              "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/icon6.png",
+                              "alt": ""
+                            },
+                            "css": "@sm:w-10 w-8"
+                          },
+                          {
+                            "id": "qafto_171101668307930776",
+                            "type": "h1",
+                            "style": {},
+                            "css": "@sm:text-lg",
+                            "content": "Customer Clearance"
+                          },
+                          {
+                            "id": "qafto_171101668307936625",
+                            "type": "p",
+                            "style": {
+                              "color": "#6b7280",
+                              "textAlign": "center",
+                              "fontSize": "14px"
+                            },
+                            "css": "text-gray-500 @xs:text-start text-center @sm:text-base text-sm",
+                            "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, esse!"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "alignItems": "center",
+                          "gap": "8px"
+                        },
+                        "css": "flex flex-col @xs:items-start items-center @xs:gap-3 gap-2"
+                      }
+                    ],
+                    "style": {
+                      "display": "grid",
+                      "gridTemplateColumns": "repeat(1, minmax(0, 1fr))",
+                      "alignItems": "center",
+                      "gap": "20px",
+                      "rowGap": "40px"
+                    },
+                    "css": "grid @md:grid-cols-3 @xs:grid-cols-2 grid-cols-1 items-center @xl:gap-20 @lg:gap-14 @md:gap-10 @sm:gap-8 gap-5 gap-y-10"
+                  }
+                ],
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": "12px",
+                  "alignItems": "center",
+                  "justifyContent": "center"
+                },
+                "css": "flex flex-col gap-3 items-center justify-center"
+              },
+              {
+                "id": "qafto_171101668307978159",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101668307989464",
+                    "type": "button",
+                    "style": {
+                      "color": "white",
+                      "fontSize": "14px",
+                      "marginTop": "40px",
+                      "paddingTop": "8px",
+                      "paddingBottom": "8px",
+                      "paddingLeft": "16px",
+                      "paddingRight": "16px",
+                      "width": "max-content",
+                      "marginLeft": "auto",
+                      "marginRight": "auto"
+                    },
+                    "css": "bg-primary_color text-white text-sm mt-10 py-2 px-4 w-max mx-auto",
+                    "content": "More Works"
+                  }
+                ],
+                "style": {
+                  "display": "flex",
+                  "alignItems": "center",
+                  "justifyContent": "center"
+                },
+                "css": "flex items-center justify-center"
+              }
+            ],
+            "style": { "width": "100%", "fontWeight": 500 },
+            "css": "w-full font-medium"
+          }
+        ],
+        "style": {
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "paddingLeft": "20px",
+          "paddingRight": "20px"
+        },
+        "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5"
+      }
+    ],
+    "style": {
+      "marginBottom": "112px",
+      "paddingTop": "56px",
+      "paddingBottom": "56px",
+      "fontFamily": "Krub"
+    },
+    "css": "bg-[#F4F4F4] mb-28 py-14"
+  },
+
+  {
+    "id": "qafto_171101668307918922",
+    "type": "section",
+    "children": [
+      {
+        "id": "qafto_171101668307966594",
+        "type": "div",
+        "children": [
+          {
+            "id": "qafto_171101668307972607",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101668307926659",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101668307939590",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101668307930088",
+                        "type": "img",
+                        "style": { "width": "100%", "height": "100%" },
+                        "data": {
+                          "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/team1.png",
+                          "alt": ""
+                        },
+                        "css": "w-full h-full object-cover"
+                      }
+                    ],
+                    "style": { "height": "256px" },
+                    "css": "h-64 overflow-hidden"
+                  },
+                  {
+                    "id": "qafto_171101668307962220",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101668308080682",
+                        "type": "p",
+                        "style": {
+                          "fontWeight": 600,
+                          "fontSize": "18px"
+                        },
+                        "css": "font-semibold text-lg",
+                        "content": "Jessaca Arow"
+                      },
+                      {
+                        "id": "qafto_171101668308025430",
+                        "type": "p",
+                        "style": { "fontSize": "14px" },
+                        "css": "text-sm",
+                        "content": "Designer"
+                      },
+                      {
+                        "id": "qafto_171101668308028705",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668308024876",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "" },
+                            "css": "mdi mdi-twitter"
+                          },
+                          {
+                            "id": "qafto_171101668308056126",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "" },
+                            "css": "mdi mdi-facebook"
+                          },
+                          {
+                            "id": "qafto_171101668308030244",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "" },
+                            "css": "mdi mdi-instagram"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "alignItems": "center",
+                          "gap": "8px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "paddingLeft": "8px",
+                          "paddingRight": "8px",
+                          "fontSize": "18px"
+                        },
+                        "css": "absolute top-[-1rem] right-0 flex items-center gap-2 py-1 px-2 text-primary_color bg-gradient-to-t from-secondary_color from-20% via-[#FFDA56] via-80% to-[#FFD7A6] text-lg"
+                      }
+                    ],
+                    "style": {
+                      "paddingTop": "12px",
+                      "paddingBottom": "12px",
+                      "paddingLeft": "16px",
+                      "paddingRight": "16px",
+                      "color": "white"
+                    },
+                    "css": "bg-primary_color py-3 px-4 text-white relative"
+                  }
+                ],
+                "style": {},
+                "css": ""
+              },
+              {
+                "id": "qafto_171101668308061111",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101668308087417",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101668308093893",
+                        "type": "img",
+                        "style": { "width": "100%", "height": "100%" },
+                        "data": {
+                          "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/team2.png",
+                          "alt": ""
+                        },
+                        "css": "w-full h-full object-cover"
+                      }
+                    ],
+                    "style": { "height": "256px" },
+                    "css": "h-64 overflow-hidden"
+                  },
+                  {
+                    "id": "qafto_171101668308070427",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101668308087465",
+                        "type": "p",
+                        "style": {
+                          "fontWeight": 600,
+                          "fontSize": "18px"
+                        },
+                        "css": "font-semibold text-lg",
+                        "content": "Kathleen Arow"
+                      },
+                      {
+                        "id": "qafto_171101668308093751",
+                        "type": "p",
+                        "style": { "fontSize": "14px" },
+                        "css": "text-sm",
+                        "content": "Designer"
+                      },
+                      {
+                        "id": "qafto_171101668308091680",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668308177795",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "" },
+                            "css": "mdi mdi-twitter"
+                          },
+                          {
+                            "id": "qafto_171101668308189955",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "" },
+                            "css": "mdi mdi-facebook"
+                          },
+                          {
+                            "id": "qafto_171101668308192153",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "" },
+                            "css": "mdi mdi-instagram"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "alignItems": "center",
+                          "gap": "8px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "paddingLeft": "8px",
+                          "paddingRight": "8px",
+                          "fontSize": "18px"
+                        },
+                        "css": "absolute top-[-1rem] right-0 flex items-center gap-2 py-1 px-2 text-primary_color bg-gradient-to-t from-secondary_color from-20% via-[#FFDA56] via-80% to-[#FFD7A6] text-lg"
+                      }
+                    ],
+                    "style": {
+                      "paddingTop": "12px",
+                      "paddingBottom": "12px",
+                      "paddingLeft": "16px",
+                      "paddingRight": "16px",
+                      "color": "white"
+                    },
+                    "css": "bg-primary_color py-3 px-4 text-white relative"
+                  }
+                ],
+                "style": {},
+                "css": ""
+              },
+              {
+                "id": "qafto_171101668308149723",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101668308163891",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101668308115334",
+                        "type": "img",
+                        "style": { "width": "100%", "height": "100%" },
+                        "data": {
+                          "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/team3.png",
+                          "alt": ""
+                        },
+                        "css": "w-full h-full object-cover"
+                      }
+                    ],
+                    "style": { "height": "256px" },
+                    "css": "h-64 overflow-hidden"
+                  },
+                  {
+                    "id": "qafto_171101668308137850",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101668308120917",
+                        "type": "p",
+                        "style": {
+                          "fontWeight": 600,
+                          "fontSize": "18px"
+                        },
+                        "css": "font-semibold text-lg",
+                        "content": "Rebecca Talor"
+                      },
+                      {
+                        "id": "qafto_171101668308172543",
+                        "type": "p",
+                        "style": { "fontSize": "14px" },
+                        "css": "text-sm",
+                        "content": "Designer"
+                      },
+                      {
+                        "id": "qafto_171101668308125212",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668308190133",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "" },
+                            "css": "mdi mdi-twitter"
+                          },
+                          {
+                            "id": "qafto_171101668308115157",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "" },
+                            "css": "mdi mdi-facebook"
+                          },
+                          {
+                            "id": "qafto_171101668308182699",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "" },
+                            "css": "mdi mdi-instagram"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "alignItems": "center",
+                          "gap": "8px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "paddingLeft": "8px",
+                          "paddingRight": "8px",
+                          "fontSize": "18px"
+                        },
+                        "css": "absolute top-[-1rem] right-0 flex items-center gap-2 py-1 px-2 text-primary_color bg-gradient-to-t from-secondary_color from-20% via-[#FFDA56] via-80% to-[#FFD7A6] text-lg"
+                      }
+                    ],
+                    "style": {
+                      "paddingTop": "12px",
+                      "paddingBottom": "12px",
+                      "paddingLeft": "16px",
+                      "paddingRight": "16px",
+                      "color": "white"
+                    },
+                    "css": "bg-primary_color py-3 px-4 text-white relative"
+                  }
+                ],
+                "style": {},
+                "css": ""
+              },
+              {
+                "id": "qafto_171101668308174125",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101668308222209",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101668308224834",
+                        "type": "img",
+                        "style": { "width": "100%", "height": "100%" },
+                        "data": {
+                          "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/team2.png",
+                          "alt": ""
+                        },
+                        "css": "w-full h-full object-cover"
+                      }
+                    ],
+                    "style": { "height": "256px" },
+                    "css": "h-64 overflow-hidden"
+                  },
+                  {
+                    "id": "qafto_171101668308282517",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101668308243226",
+                        "type": "p",
+                        "style": {
+                          "fontWeight": 600,
+                          "fontSize": "18px"
+                        },
+                        "css": "font-semibold text-lg",
+                        "content": "Nao Smith"
+                      },
+                      {
+                        "id": "qafto_171101668308263391",
+                        "type": "p",
+                        "style": { "fontSize": "14px" },
+                        "css": "text-sm",
+                        "content": "Designer"
+                      },
+                      {
+                        "id": "qafto_171101668308266935",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668308258330",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "" },
+                            "css": "mdi mdi-twitter"
+                          },
+                          {
+                            "id": "qafto_171101668308250606",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "" },
+                            "css": "mdi mdi-facebook"
+                          },
+                          {
+                            "id": "qafto_171101668308281547",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "" },
+                            "css": "mdi mdi-instagram"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "alignItems": "center",
+                          "gap": "8px",
+                          "paddingTop": "4px",
+                          "paddingBottom": "4px",
+                          "paddingLeft": "8px",
+                          "paddingRight": "8px",
+                          "fontSize": "18px"
+                        },
+                        "css": "absolute top-[-1rem] right-0 flex items-center gap-2 py-1 px-2 text-primary_color bg-gradient-to-t from-secondary_color from-20% via-[#FFDA56] via-80% to-[#FFD7A6] text-lg"
+                      }
+                    ],
+                    "style": {
+                      "paddingTop": "12px",
+                      "paddingBottom": "12px",
+                      "paddingLeft": "16px",
+                      "paddingRight": "16px",
+                      "color": "white"
+                    },
+                    "css": "bg-primary_color py-3 px-4 text-white relative"
+                  }
+                ],
+                "style": {},
+                "css": ""
+              }
+            ],
+            "style": {
+              "display": "grid",
+              "alignItems": "center",
+              "gap": "12px",
+              "rowGap": "12px"
+            },
+            "css": "grid @xl:grid-cols-4 @md:grid-cols-3 @sm:grid-cols-2 items-center @lg:gap-4 gap-3 @lg:gap-y-4 gap-y-3"
+          }
+        ],
+        "style": { "width": "100%", "fontWeight": 500 },
+        "css": "w-full font-medium"
+      }
+    ],
+    "style": {
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "marginBottom": "112px",
+      "fontFamily": "Krub"
+    },
+    "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5 mb-28"
+  },
+
+  {
+    "id": "qafto_171101668308294336",
+    "type": "div",
+    "children": [
+      {
+        "id": "qafto_171101668308249673",
+        "type": "section",
+        "children": [
+          {
+            "id": "qafto_171101668308231029",
+            "type": "div",
+            "children": [
+              {
+                "id": "qafto_171101668308285647",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101668308398172",
+                    "type": "p",
+                    "style": {
+                      "paddingLeft": "12px",
+                      "paddingRight": "12px",
+                      "paddingTop": "4px",
+                      "paddingBottom": "4px",
+                      "borderLeftWidth": "4px",
+                      "fontSize": "14px",
+                      "width": "max-content",
+                      "marginBottom": "12px"
+                    },
+                    "css": "px-3 py-1 bg-[#F4F4F4] border-l-4 border-secondary_color text-sm  w-max mb-3",
+                    "content": "FAQ"
+                  },
+                  {
+                    "id": "qafto_171101668308336562",
+                    "type": "h1",
+                    "style": {
+                      "fontSize": "20px",
+                      "fontWeight": 600,
+                      "marginBottom": "20px",
+                      "fontFamily": "Rubik"
+                    },
+                    "css": "@lg:text-3xl @xs:text-2xl text-xl font-semibold mb-5",
+                    "content": "Frequently Asked Questions"
+                  },
+                  {
+                    "id": "qafto_171101668308317832",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101668308342308",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668308316360",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101668308321559",
+                                "type": "div",
+                                "events": {
+                                  "onClick": {
+                                    "task": "Toggle Element",
+                                    "parameters": {
+                                      "id": "qafto_171101668308448750"
+                                    }
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": "qafto_171101668308334161",
+                                    "type": "span",
+                                    "style": {},
+                                    "content": " How can i pay for your Logistics Services?"
+                                  },
+                                  {
+                                    "id": "qafto_171101668308344331",
+                                    "type": "span",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171101668308422648",
+                                        "type": "span",
+                                        "style": { "fontSize": "24px" },
+                                        "css": "mdi mdi-chevron-right text-2xl"
+                                      }
+                                    ],
+                                    "style": {},
+                                    "css": "transition group-open:rotate-90"
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "justifyContent": "space-between",
+                                  "fontWeight": 500
+                                },
+                                "css": "flex cursor-pointer list-none items-center justify-between font-medium"
+                              },
+                              {
+                                "id": "qafto_171101668308448750",
+                                "type": "p",
+                                "style": {
+                                  "marginTop": "12px",
+                                  "color": "#737373"
+                                },
+                                "css": "group-open:animate-fadeIn mt-3 text-neutral-500 hidden",
+                                "content": "Springerdata offers a variety of billing options, including monthly and annual subscription plans, as well as pay-as-you-go pricing for certain services. Payment is typically made through a credit card or other secure online payment method."
+                              }
+                            ],
+                            "style": {},
+                            "css": "group"
+                          }
+                        ],
+                        "style": {},
+                        "css": ""
+                      },
+                      {
+                        "id": "qafto_171101668308489031",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668308475635",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101668308461613",
+                                "type": "div",
+                                "events": {
+                                  "onClick": {
+                                    "task": "Toggle Element",
+                                    "parameters": {
+                                      "id": "qafto_171101668308417657"
+                                    }
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": "qafto_171101668308454377",
+                                    "type": "span",
+                                    "style": {},
+                                    "content": " What Payments methods are supported?"
+                                  },
+                                  {
+                                    "id": "qafto_171101668308426507",
+                                    "type": "span",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171101668308492508",
+                                        "type": "span",
+                                        "style": { "fontSize": "24px" },
+                                        "css": "mdi mdi-chevron-right text-2xl"
+                                      }
+                                    ],
+                                    "style": {},
+                                    "css": "transition group-open:rotate-90"
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "justifyContent": "space-between",
+                                  "fontWeight": 500
+                                },
+                                "css": "flex cursor-pointer list-none items-center justify-between font-medium"
+                              },
+                              {
+                                "id": "qafto_171101668308417657",
+                                "type": "p",
+                                "style": {
+                                  "marginTop": "12px",
+                                  "color": "#737373"
+                                },
+                                "css": "group-open:animate-fadeIn mt-3 text-neutral-500 hidden",
+                                "content": "Springerdata offers a variety of billing options, including monthly and annual subscription plans, as well as pay-as-you-go pricing for certain services. Payment is typically made through a credit card or other secure online payment method."
+                              }
+                            ],
+                            "style": {},
+                            "css": "group"
+                          }
+                        ],
+                        "style": {},
+                        "css": ""
+                      },
+                      {
+                        "id": "qafto_171101668308482545",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668308487885",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101668308445481",
+                                "type": "div",
+                                "events": {
+                                  "onClick": {
+                                    "task": "Toggle Element",
+                                    "parameters": {
+                                      "id": "qafto_171101668308412113"
+                                    }
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": "qafto_171101668308460544",
+                                    "type": "span",
+                                    "style": {},
+                                    "content": " What options for logistics plans are available?"
+                                  },
+                                  {
+                                    "id": "qafto_171101668308421814",
+                                    "type": "span",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171101668308488586",
+                                        "type": "span",
+                                        "style": { "fontSize": "24px" },
+                                        "css": "mdi mdi-chevron-right text-2xl"
+                                      }
+                                    ],
+                                    "style": {},
+                                    "css": "transition group-open:rotate-90"
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "justifyContent": "space-between",
+                                  "fontWeight": 500
+                                },
+                                "css": "flex cursor-pointer list-none items-center justify-between font-medium"
+                              },
+                              {
+                                "id": "qafto_171101668308412113",
+                                "type": "p",
+                                "style": {
+                                  "marginTop": "12px",
+                                  "color": "#737373"
+                                },
+                                "css": "group-open:animate-fadeIn mt-3 text-neutral-500 hidden",
+                                "content": "Springerdata offers a variety of billing options, including monthly and annual subscription plans, as well as pay-as-you-go pricing for certain services. Payment is typically made through a credit card or other secure online payment method."
+                              }
+                            ],
+                            "style": {},
+                            "css": "group"
+                          }
+                        ],
+                        "style": {},
+                        "css": ""
+                      },
+                      {
+                        "id": "qafto_171101668308449642",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668308472846",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101668308441687",
+                                "type": "div",
+                                "events": {
+                                  "onClick": {
+                                    "task": "Toggle Element",
+                                    "parameters": {
+                                      "id": "qafto_171101668308539855"
+                                    }
+                                  }
+                                },
+
+                                "children": [
+                                  {
+                                    "id": "qafto_171101668308573571",
+                                    "type": "span",
+                                    "style": {},
+                                    "content": " Can i specify a delivery date when ordering?"
+                                  },
+                                  {
+                                    "id": "qafto_171101668308545801",
+                                    "type": "span",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171101668308598522",
+                                        "type": "span",
+                                        "style": { "fontSize": "24px" },
+                                        "css": "mdi mdi-chevron-right text-2xl"
+                                      }
+                                    ],
+                                    "style": {},
+                                    "css": "transition group-open:rotate-90"
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "justifyContent": "space-between",
+                                  "fontWeight": 500
+                                },
+                                "css": "flex cursor-pointer list-none items-center justify-between font-medium"
+                              },
+                              {
+                                "id": "qafto_171101668308539855",
+                                "type": "p",
+                                "style": {
+                                  "marginTop": "12px",
+                                  "color": "#737373"
+                                },
+                                "css": "group-open:animate-fadeIn mt-3 text-neutral-500 hidden",
+                                "content": "Springerdata offers a variety of billing options, including monthly and annual subscription plans, as well as pay-as-you-go pricing for certain services. Payment is typically made through a credit card or other secure online payment method."
+                              }
+                            ],
+                            "style": {},
+                            "css": "group"
+                          }
+                        ],
+                        "style": {},
+                        "css": ""
+                      }
+                    ],
+                    "style": { "display": "grid", "gap": "20px" },
+                    "css": "grid gap-5 "
+                  }
+                ],
+                "style": {
+                  "width": "100%",
+                  "marginLeft": "auto",
+                  "marginRight": "auto"
+                },
+                "css": "@xl:flex-1 @sm:w-11/12 w-full mx-auto @xl:order-1 order-2"
+              },
+              {
+                "id": "qafto_171101668308579460",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101668308554116",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101668308579818",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101668308519614",
+                            "type": "img",
+                            "style": {
+                              "width": "100%",
+                              "height": "256px"
+                            },
+                            "data": {
+                              "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/faq3.png",
+                              "alt": ""
+                            },
+                            "css": "w-full object-cover @xl:h-auto @md:h-full @xs:h-72 h-64"
+                          },
+                          {
+                            "id": "qafto_171101668308591270",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101668308561438",
+                                "type": "p",
+                                "style": {
+                                  "paddingLeft": "12px",
+                                  "paddingRight": "12px",
+                                  "paddingTop": "4px",
+                                  "paddingBottom": "4px",
+                                  "borderLeftWidth": "4px",
+                                  "fontSize": "14px",
+                                  "width": "max-content",
+                                  "marginBottom": "20px"
+                                },
+                                "css": "px-3 py-1 border-l-4 border-secondary_color text-sm  w-max mb-5 ",
+                                "content": "Let's Talk"
+                              },
+                              {
+                                "id": "qafto_171101668308679565",
+                                "type": "h1",
+                                "style": {
+                                  "fontSize": "16px",
+                                  "fontWeight": 600,
+                                  "marginBottom": "20px",
+                                  "fontFamily": "Rubik"
+                                },
+                                "css": "@lg:text-lg text-base font-semibold @xl:mb-5 @md:mb-8 mb-5",
+                                "content": "You Need Any Help? Get Free Constultation"
+                              },
+                              {
+                                "id": "qafto_171101668308626833",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171101668308684352",
+                                    "type": "div",
+                                    "children": [
+                                      {
+                                        "id": "qafto_171101668308614040",
+                                        "type": "span",
+                                        "style": {
+                                          "paddingTop": "4px",
+                                          "paddingBottom": "4px",
+                                          "paddingLeft": "8px",
+                                          "paddingRight": "8px",
+                                          "borderRadius": "9999px",
+                                          "borderWidth": "1px",
+                                          "borderColor": "#273270",
+                                          "backgroundColor": "#111C55",
+                                          "fontSize": "econdary_colo"
+                                        },
+                                        "css": "mdi mdi-phone-outline py-1 px-2  rounded-full border border-[#273270] bg-[#111C55] text-secondary_color"
+                                      },
+                                      {
+                                        "id": "qafto_171101668308737169",
+                                        "type": "div",
+                                        "children": [
+                                          {
+                                            "id": "qafto_171101668308791334",
+                                            "type": "p",
+                                            "style": {},
+                                            "content": "Have Any Questions"
+                                          },
+                                          {
+                                            "id": "qafto_171101668308721439",
+                                            "type": "p",
+                                            "style": {},
+                                            "content": "(001) 112 365 489"
+                                          }
+                                        ],
+                                        "style": { "fontSize": "12px" },
+                                        "css": "text-xs cursor-pointer"
+                                      }
+                                    ],
+                                    "style": {
+                                      "display": "flex",
+                                      "gap": "12px",
+                                      "alignItems": "center"
+                                    },
+                                    "css": "flex gap-3 items-center @xl:mb-5 @md:mb-8 "
+                                  },
+                                  {
+                                    "id": "qafto_171101668308738455",
+                                    "events":{
+                                      "onClick":{
+                                        "task":"Navigate",
+                                        "parameters":{
+                                          "path":"/contact",
+                                          "pageName":"ContactUs",
+                                          "newTab":false,
+                                          "navigationType":"Page"
+                                        }
+                                      }
+                                    },
+                                    "type": "button",
+                                    "style": {
+                                      "paddingTop": "8px",
+                                      "paddingBottom": "8px",
+                                      "paddingLeft": "20px",
+                                      "paddingRight": "20px",
+                                      "fontSize": "14px",
+                                      "fontWeight": 500,
+                                      "width": "100%"
+                                    },
+                                    "css": "py-2 px-5 bg-gradient-to-r from-secondary_color from-20% via-[#FFDA56] via-80% to-[#FFD7A6] text-primary_color font-medium @xs:w-max w-full text-sm",
+                                    "content": "Contact Us"
+                                  }
+                                ],
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "gap": "20px"
+                                },
+                                "css": "flex @md:flex-col @xs:flex-row flex-col @md:gap-0 gap-5 "
+                              }
+                            ],
+                            "style": {
+                              "display": "block",
+                              "height": "100%",
+                              "paddingTop": "32px",
+                              "paddingBottom": "32px",
+                              "paddingLeft": "20px",
+                              "paddingRight": "20px",
+                              "color": "white",
+                              "width": "100%"
+                            },
+                            "css": "@xl:absolute block @xl:top-[24%] @xl:left-[-3rem] @xl:h-auto h-full bg-primary_color py-8 @xs:px-8 px-5 text-white @xl:w-2/4 @md:w-auto w-full"
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "alignItems": "center",
+                          "width": "100%"
+                        },
+                        "css": "@xl:block flex @md:flex-row flex-col @lg:gap-10 @md:gap-6 items-center w-full @xl:h-auto @md:h-80"
+                      }
+                    ],
+                    "style": { "width": "100%", "height": "100%" },
+                    "css": "w-full @xl:h-auto @xl:relative h-full"
+                  }
+                ],
+                "style": { "width": "100%", "height": "100%" },
+                "css": "@xl:flex-1 @order-2 order-1 w-full h-full"
+              }
+            ],
+            "style": {
+              "display": "flex",
+              "alignItems": "center",
+              "flexDirection": "column",
+              "gap": "48px"
+            },
+            "css": "flex items-center @xl:flex-row flex-col @xl:gap-24 gap-12"
+          }
+        ],
+        "style": {
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "paddingLeft": "20px",
+          "paddingRight": "20px",
+          "fontWeight": 500
+        },
+        "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5 font-medium"
+      }
+    ],
+    "style": {
+      "paddingTop": "56px",
+      "paddingBottom": "56px",
+      "fontFamily": "Krub"
+    },
+    "css": "bg-[#F4F4F4] py-14"
+  },
+
+  {
+    "id": "qafto_171101619780794679",
+    "type": "div",
+    "children": [
+      {
+        "id": "qafto_171101619780758370",
+        "type": "div",
+        "children": [
+          {
+            "id": "qafto_171101619780773489",
+            "type": "img",
+            "style": { "width": "100%", "height": "100%" },
+            "data": {
+              "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/footerlogo.png",
+              "alt": ""
+            },
+            "css": "w-full object-cover h-full"
+          }
+        ],
+        "style": { "width": "100%", "height": "240px" },
+        "css": "w-full @2xl:h-96 @xl:h-full @lg:h-80 @md:h-72 @sm:h-64 h-60 "
+      },
+      {
+        "id": "qafto_171101619780748508",
+        "type": "div",
+        "children": [
+          {
+            "id": "qafto_171101619780721458",
+            "type": "section",
+            "children": [
+              {
+                "id": "qafto_171101619780815206",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101619780857489",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101619780863972",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101619780875825",
+                            "type": "img",
+                            "style": {
+                              "height": "100%",
+                              "width": "100%"
+                            },
+                            "data": {
+                              "src": "https://cdn.qafto.com/templates/transport_and_logistics_showcase_1/images/logo.png",
+                              "alt": ""
+                            },
+                            "css": "h-full w-full object-cover"
+                          }
+                        ],
+                        "style": {
+                          "width": "112px",
+                          "marginBottom": "20px"
+                        },
+                        "css": "w-28 @sm:mb-12 mb-5"
+                      },
+                      {
+                        "id": "qafto_171101619780873797",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101619780887742",
+                            "type": "p",
+                            "style": { "marginBottom": "20px" },
+                            "css": "mb-5 @xs:w-11/12",
+                            "content": "Leverage agile frameworks to provide a robust synopsis for startegy collaborative thinking for further the overall value proposition"
+                          },
+                          {
+                            "id": "qafto_171101619780876690",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101619780875539",
+                                "type": "span",
+                                "style": {
+                                  "paddingTop": "4px",
+                                  "paddingBottom": "4px",
+                                  "paddingLeft": "8px",
+                                  "paddingRight": "8px",
+                                  "borderRadius": "9999px",
+                                  "borderWidth": "1px",
+                                  "borderColor": "#273270",
+                                  "backgroundColor": "#111C55",
+                                  "fontSize": "econdary_colo"
+                                },
+                                "css": "mdi mdi-email-outline py-1 px-2  rounded-full border border-[#273270] bg-[#111C55] text-secondary_color"
+                              },
+                              {
+                                "id": "qafto_171101619780919687",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171101619780994638",
+                                    "type": "p",
+                                    "style": {},
+                                    "css": "",
+                                    "content": "Email"
+                                  },
+                                  {
+                                    "id": "qafto_171101619780913631",
+                                    "type": "p",
+                                    "style": {},
+                                    "css": "",
+                                    "content": "Contact@logistics.com"
+                                  }
+                                ],
+                                "style": { "fontSize": "12px" },
+                                "css": "text-xs cursor-pointer"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "12px",
+                              "alignItems": "center"
+                            },
+                            "css": "flex gap-3 items-center"
+                          },
+                          {
+                            "id": "qafto_171101619780983062",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101619780944658",
+                                "type": "span",
+                                "style": {
+                                  "paddingTop": "4px",
+                                  "paddingBottom": "4px",
+                                  "paddingLeft": "8px",
+                                  "paddingRight": "8px",
+                                  "borderRadius": "9999px",
+                                  "borderWidth": "1px",
+                                  "borderColor": "#273270",
+                                  "backgroundColor": "#111C55",
+                                  "fontSize": "econdary_colo"
+                                },
+                                "css": "mdi mdi-phone-outline py-1 px-2  rounded-full border border-[#273270] bg-[#111C55] text-secondary_color"
+                              },
+                              {
+                                "id": "qafto_171101619781045295",
+                                "type": "div",
+                                "children": [
+                                  {
+                                    "id": "qafto_171101619781015029",
+                                    "type": "p",
+                                    "style": {},
+                                    "content": "Call Us"
+                                  },
+                                  {
+                                    "id": "qafto_171101619781065848",
+                                    "type": "p",
+                                    "style": {},
+                                    "content": "(001) 112 365 489"
+                                  }
+                                ],
+                                "style": { "fontSize": "12px" },
+                                "css": "text-xs cursor-pointer"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "gap": "12px",
+                              "alignItems": "center",
+                              "marginTop": "20px"
+                            },
+                            "css": "flex gap-3 items-center mt-5"
+                          }
+                        ],
+                        "style": { "fontSize": "14px" },
+                        "css": " text-sm"
+                      }
+                    ],
+                    "style": {},
+                    "css": "@sm:order-1 order-2"
+                  },
+                  {
+                    "id": "qafto_171101619781096066",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101524095438272",
+                        "type": "h1",
+                        "style": {
+                          "fontSize": "20px",
+                          "fontWeight": 500,
+                          "marginBottom": "20px",
+                          "fontFamily": "Rubik"
+                        },
+                        "css": "text-xl font-medium @sm:mb-12 mb-5",
+                        "content": "Pages"
+                      },
+                      {
+                        "id": "qafto_171101524095565677",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101524095577829",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "About Us",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/about",
+                                  "newTab": false,
+                                  "pageName": "About",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "qafto_171101524095522556",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "Services",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/services",
+                                  "newTab": false,
+                                  "pageName": "ServicesPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "qafto_171101524095546443",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "Our Project",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/projects",
+                                  "newTab": false,
+                                  "pageName": "ProjectPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "qafto_171101524095550427",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "Blog",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/blogs",
+                                  "newTab": false,
+                                  "pageName": "BlogsPage",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "qafto_171101524095597477",
+                            "type": "a",
+                            "style": {},
+                            "data": { "href": "#" },
+                            "css": "",
+                            "content": "Contact",
+                            "events": {
+                              "onClick": {
+                                "task": "Navigate",
+                                "parameters": {
+                                  "path": "/contact",
+                                  "newTab": false,
+                                  "pageName": "ContactUs",
+                                  "navigationType": "Page"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "gap": "16px",
+                          "fontSize": "14px"
+                        },
+                        "css": "flex flex-col gap-4 text-sm"
+                      }
+                    ],
+                    "style": { "height": "100%" },
+                    "css": "@sm:order-2 order-3 @sm:place-self-center h-full"
+                  },
+                  {
+                    "id": "qafto_171101619781036852",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101619781133691",
+                        "type": "h1",
+                        "style": {
+                          "fontSize": "20px",
+                          "fontWeight": 500,
+                          "marginBottom": "20px",
+                          "fontFamily": "Rubik"
+                        },
+                        "css": "text-xl font-medium @sm:mb-12 mb-5",
+                        "content": "Subscribe"
+                      },
+                      {
+                        "id": "qafto_171101619781192382",
+                        "type": "FormikComponent",
+                        "data": {
+                          "form_id": "lo8cyvc3bido1xsharn",
+                          "form_name": "newformlo8cyvc3bwxoharbs6cn",
+                          "display_name": "ContactUs",
+
+                          "formik_state": {
+                            "email": ""
+                          },
+                          "url": "newsletter/subscribe",
+                          "function": "NewsletterStatic",
+                          "tablename": "newsletter2",
+                          "navigate": "/",
+                          "successMsg": "Thank you for getting in touch with us!",
+                          "failMsg": "Please try again."
+                        },
+                        "children": [
+                          {
+                            "id": "qafto_171101619781155593",
+                            "type": "EmailField",
+                            "data": {
+                              "css": {
+                                "help": "",
+                                "input": "@xs:w-11/12 w-full mb-2 py-2 px-3 bg-transparent outline-none text-sm border border-[#273270]",
+                                "label": "",
+                                "warning": "capitalize text-xs text-red-600",
+                                "helpStyle": {},
+                                "inputStyle": {
+                                  "width": "100%",
+                                  "marginBottom": "8px",
+                                  "paddingTop": "8px",
+                                  "paddingBottom": "8px",
+                                  "paddingLeft": "12px",
+                                  "paddingRight": "12px",
+                                  "backgroundColor": "transparent",
+                                  "fontSize": "14px",
+                                  "borderWidth": "1px",
+                                  "borderColor": "#273270"
+                                },
+                                "warningStyle": {
+                                  "color": "#dc2626",
+                                  "marginTop": "4px",
+                                  "fontSize": "14px",
+                                  "textTransform": "capitalize"
+                                }
+                              },
+                              "help": false,
+                              "name": "Email",
+                              "label": false,
+                              "helpText": "",
+                              "required": true,
+                              "unique": true,
+                              "inputType": "email",
+                              "labelText": "",
+                              "stateName": "email",
+                              "placeholder": "Email",
+                              "minLength": 6,
+                              "validations": [
+                                {
+                                  "type": "required",
+                                  "message": "Email is required"
+                                },
+                                {
+                                  "type": "isEmail",
+                                  "message": "Please enter a valid email address"
+                                },
+                                {
+                                  "type": "minLength",
+                                  "value": 6,
+                                  "message": "Minimum 6 characters required"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "id": "qafto_171101619781290198",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101619781282526",
+                                "type": "button",
+                                "style": {
+                                  "paddingTop": "8px",
+                                  "paddingBottom": "8px",
+                                  "paddingLeft": "20px",
+                                  "paddingRight": "20px",
+                                  "fontSize": "rimary_colo",
+                                  "fontWeight": 500
+                                },
+                                "data": {
+                                  "type": "submit",
+                                  "formButton": true
+                                },
+                                "css": "py-2 px-5  text-sm bg-gradient-to-r from-secondary_color from-20% via-[#FFDA56] via-80% to-[#FFD7A6] text-primary_color font-medium",
+                                "content": "Send Now"
+                              },
+                              {
+                                "id": "qafto_171101619781253171",
+                                "type": "span",
+                                "style": {},
+                                "css": "mdi mdi-linkedin cursor-pointer"
+                              },
+                              {
+                                "id": "qafto_171101619781212696",
+                                "type": "span",
+                                "style": {},
+                                "css": "mdi mdi-twitter cursor-pointer"
+                              },
+                              {
+                                "id": "qafto_171101619781279396",
+                                "type": "span",
+                                "style": {},
+                                "css": "mdi mdi-facebook cursor-pointer"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "gap": "12px"
+                            },
+                            "css": "flex items-center gap-3"
+                          }
+                        ],
+                        "style": { "width": "100%" },
+                        "css": "w-full"
+                      }
+                    ],
+                    "style": {},
+                    "css": "@sm:order-3 order-1"
+                  }
+                ],
+                "style": {
+                  "display": "grid",
+                  "gap": "40px",
+                  "rowGap": "40px",
+                  "paddingTop": "32px",
+                  "paddingBottom": "32px"
+                },
+                "css": "grid @md:grid-cols-3 @sm:grid-cols-2 gap-10 gap-y-10 py-8"
+              },
+              {
+                "id": "qafto_171101619781264319",
+                "type": "div",
+                "children": [
+                  {
+                    "id": "qafto_171101619781253105",
+                    "type": "div",
+                    "children": [
+                      {
+                        "id": "qafto_171101619781236852",
+                        "type": "div",
+                        "children": [
+                          {
+                            "id": "qafto_171101619781325178",
+                            "type": "p",
+                            "style": {},
+                            "content": "CopyRight © | Designed 2024"
+                          },
+                          {
+                            "id": "qafto_171101619781379150",
+                            "type": "div",
+                            "children": [
+                              {
+                                "id": "qafto_171101619781357150",
+                                "type": "p",
+                                "style": {},
+                                "content": "Terms & Condition"
+                              },
+                              {
+                                "id": "qafto_171101619781380689",
+                                "type": "p",
+                                "style": {},
+                                "content": "Privacy Policy"
+                              }
+                            ],
+                            "style": {
+                              "display": "flex",
+                              "alignItems": "center",
+                              "gap": "16px",
+                              "fontSize": "12px"
+                            },
+                            "css": "flex items-center gap-4 @xs:text-sm text-xs "
+                          }
+                        ],
+                        "style": {
+                          "display": "flex",
+                          "alignItems": "center",
+                          "flexDirection": "column",
+                          "rowGap": "20px",
+                          "fontSize": "14px"
+                        },
+                        "css": "flex items-center @sm:flex-row flex-col @sm:justify-between gap-y-5 text-sm"
+                      }
+                    ],
+                    "style": {
+                      "marginLeft": "auto",
+                      "marginRight": "auto",
+                      "paddingLeft": "20px",
+                      "paddingRight": "20px",
+                      "color": "white"
+                    },
+                    "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-0 @md:px-10 px-5 text-white"
+                  }
+                ],
+                "style": {
+                  "width": "100%",
+                  "borderTopWidth": "1px",
+                  "borderColor": "#273270",
+                  "paddingTop": "16px",
+                  "paddingBottom": "16px",
+                  "marginTop": "16px"
+                },
+                "css": "w-full border-t border-[#273270] py-4 mt-4"
+              }
+            ],
+            "style": {
+              "marginLeft": "auto",
+              "marginRight": "auto",
+              "paddingLeft": "20px",
+              "paddingRight": "20px",
+              "color": "white"
+            },
+            "css": "@xl:max-w-screen-xl max-w-screen-lg mx-auto @lg:px-1 @md:px-10 px-5 text-white"
+          }
+        ],
+        "style": { "color": "white" },
+        "css": "bg-primary_color text-white"
+      }
+    ],
+    "style": { "fontFamily": "Krub" },
+    "css": ""
+  }
+]
